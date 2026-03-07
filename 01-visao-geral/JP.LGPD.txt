@@ -1,0 +1,2067 @@
+
+# SITE: 4 PILARES LGPD - ARQUITETURA CONCEITUAL MODULAR
+Domínio: sajodiagnos.club
+CNPJ: 58.551.044/0001-90
+Razão Social: 4 PILARES LGPD "LEI-REGRAS-CONFORMIDADE-TITULAR DOS DADOS"
+
+═══════════════════════════════════════════════════════════════════════
+
+## CONCEITO CENTRAL: ARQUITETURA DOS 4 PILARES
+
+O site é estruturado em 4 módulos conceituais que representam 
+os pilares da proteção de dados:
+
+🏛️ PILAR 1: **LEI** - Base legal e legislação
+🏛️ PILAR 2: **REGRAS** - Governança e processos
+🏛️ PILAR 3: **CONFORMIDADE** - Adequação e certificação
+🏛️ PILAR 4: **TITULAR** - Direitos e transparência
+
+Cada pilar tem cor própria e representa uma seção navegável do site.
+
+═══════════════════════════════════════════════════════════════════════
+
+## PALETA DE CORES (4 PILARES)
+
+**PILAR LEI (Azul Escuro):** #0f172a
+**PILAR REGRAS (Verde Escuro):** #065f46
+**PILAR CONFORMIDADE (Laranja):** #ea580c
+**PILAR TITULAR (Roxo):** #7c3aed
+
+**NEUTRAS:**
+- Branco: #ffffff
+- Cinza Claro: #f8fafc
+- Cinza Texto: #64748b
+- Verde WhatsApp: #25d366
+
+═══════════════════════════════════════════════════════════════════════
+
+## HEADER FIXO (STICKY)
+
+Logo: "4 PILARES LGPD"
+Tagline: "Lei • Regras • Conformidade • Titular"
+
+**Menu principal (4 pilares visíveis):**
+[LEI] [REGRAS] [CONFORMIDADE] [TITULAR] | [Planos] [Sobre] [FAQ] [Blog]
+
+CTA Header: "Contratar Agora" (verde)
+
+═══════════════════════════════════════════════════════════════════════
+
+## SEÇÃO 1: HERO
+
+Background: Gradiente azul escuro (#0f172a → #1e3a8a)
+Layout: Centralizado
+
+**H1 (Branco, Bold, 54px):**
+"4 Pilares LGPD — Adequação Completa à Legislação Brasileira 
+de Proteção de Dados"
+
+**Subtítulo (Branco/90%, 20px):**
+"Solução corporativa baseada em 4 pilares fundamentais: Lei, Regras, 
+Conformidade e Direitos do Titular. DPO certificado com suporte 
+jurídico e técnico especializado."
+
+**4 PILARES VISUAIS (Grid 2x2, ícones grandes):**
+
+┌──────────────────────┬──────────────────────┐
+│ 🏛️ LEI                │ 📋 REGRAS            │
+│ Base Legal           │ Governança           │
+│ LGPD | MCI | Lei     │ Processos e          │
+│ 15.211/2025          │ Documentação         │
+└──────────────────────┴──────────────────────┘
+┌──────────────────────┬──────────────────────┐
+│ ✅ CONFORMIDADE       │ 👤 TITULAR           │
+│ Certificação         │ Direitos             │
+│ Auditoria e          │ Canal e              │
+│ Adequação            │ Transparência        │
+└──────────────────────┴──────────────────────┘
+
+**CTAs (duplo):**
+[Botão verde] "Ver Planos e Preços"
+[Botão outline] "Diagnóstico Gratuito"
+
+**BANNER OFERTA (laranja, abaixo):**
+🔥 OFERTA LANÇAMENTO: DPO Certificado R$ 299/mês (primeiros 6 meses)
+
+═══════════════════════════════════════════════════════════════════════
+
+## SEÇÃO 2: OS 4 PILARES EXPLICADOS
+
+Background: Branco
+Título: "Nossa Metodologia: 4 Pilares da Proteção de Dados"
+
+**Subtítulo:**
+"Estrutura conceitual que garante conformidade total com a 
+legislação brasileira de proteção de dados."
+
+**4 CARDS EXPANDIDOS (clicáveis, cada um abre submenu):**
+
+┌─────────────────────────────────────────────────────────────────────┐
+│ 🏛️ PILAR 1: LEI (Cor: Azul Escuro #0f172a)                          │
+│ ──────────────────────────────────────────────────────────────────  │
+│ **Base Legal e Legislação Aplicável**                               │
+│                                                                      │
+│ Compreensão profunda das três leis que regem a proteção de dados    │
+│ no Brasil:                                                          │
+│                                                                      │
+│ • Lei 13.709/2018 (LGPD) - Proteção de dados pessoais               │
+│ • Lei 12.965/2014 (Marco Civil) - Direitos digitais                 │
+│ • Lei 15.211/2025 (Estatuto Digital) - Proteção de menores          │
+│                                                                      │
+│ **O que entregamos neste pilar:**                                   │
+│ ✓ Análise de aplicabilidade legal                                   │
+│ ✓ Identificação de bases legais                                     │
+│ ✓ Mapeamento de obrigações regulatórias                             │
+│ ✓ Monitoramento de atualizações legislativas                        │
+│                                                                      │
+│ [Saiba Mais →]                                                       │
+└─────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────┐
+│ 📋 PILAR 2: REGRAS (Cor: Verde Escuro #065f46)                      │
+│ ──────────────────────────────────────────────────────────────────  │
+│ **Governança e Processos Operacionais**                             │
+│                                                                      │
+│ Implementação de regras, políticas e procedimentos para tratamento  │
+│ adequado de dados pessoais.                                         │
+│                                                                      │
+│ • Políticas de Privacidade e Termos de Uso                          │
+│ • Procedimentos Operacionais Padrão (POPs)                          │
+│ • Fluxos de trabalho e responsabilidades                            │
+│ • Framework de governança corporativa                               │
+│                                                                      │
+│ **O que entregamos neste pilar:**                                   │
+│ ✓ RIPD, ROPA, LIA, DIA (relatórios técnicos)                        │
+│ ✓ Políticas e procedimentos documentados                            │
+│ ✓ Contratos DPA/NDA                                                 │
+│ ✓ Matriz de responsabilidades                                       │
+│                                                                      │
+│ [Saiba Mais →]                                                       │
+└─────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────┐
+│ ✅ PILAR 3: CONFORMIDADE (Cor: Laranja #ea580c)                     │
+│ ──────────────────────────────────────────────────────────────────  │
+│ **Certificação e Adequação Contínua**                               │
+│                                                                      │
+│ Garantia de que a empresa está em conformidade com as leis e        │
+│ melhores práticas de proteção de dados.                             │
+│                                                                      │
+│ • DPO Certificado e registrado ANPD                                 │
+│ • Auditorias periódicas (GAP Analysis)                              │
+│ • Assessment de maturidade                                          │
+│ • Planos de correção e melhoria contínua                            │
+│                                                                      │
+│ **O que entregamos neste pilar:**                                   │
+│ ✓ Certificação DPO com registro ANPD                                │
+│ ✓ Relatórios de auditoria                                           │
+│ ✓ Planos de ação corretiva                                          │
+│ ✓ Treinamentos e capacitação                                        │
+│                                                                      │
+│ [Saiba Mais →]                                                       │
+└─────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────┐
+│ 👤 PILAR 4: TITULAR (Cor: Roxo #7c3aed)                             │
+│ ──────────────────────────────────────────────────────────────────  │
+│ **Direitos e Transparência com Titulares**                          │
+│                                                                      │
+│ Estrutura para garantir os direitos dos titulares de dados e        │
+│ transparência no tratamento de informações pessoais.                │
+│                                                                      │
+│ • Canal de comunicação com titulares                                │
+│ • Gestão de requisições (ANPD + titulares)                          │
+│ • Transparência e accountability                                    │
+│ • Portal de privacidade público                                     │
+│                                                                      │
+│ **O que entregamos neste pilar:**                                   │
+│ ✓ Canal de atendimento titulares (e-mail/formulário)                │
+│ ✓ Processo de resposta a requisições                                │
+│ ✓ Portal de privacidade transparente                                │
+│ ✓ Gestão de incidentes e notificações                               │
+│                                                                      │
+│ [Saiba Mais →]                                                       │
+└─────────────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════
+
+## SEÇÃO 3: PANORAMA LEGISLATIVO
+
+Background: Cinza claro (#f8fafc)
+Título: "Três Leis que Regulam a Proteção de Dados no Brasil"
+
+**3 CARDS (expansíveis, design timeline vertical):**
+
+[Mesma estrutura anterior das 3 leis: LGPD, Marco Civil, Estatuto Digital]
+
+═══════════════════════════════════════════════════════════════════════
+
+## SEÇÃO 4: PLANOS E PREÇOS ⭐ (核PRINCIPAL)
+
+Background: Branco
+Título: "Planos Transparentes Baseados nos 4 Pilares"
+Subtítulo: "Todos os planos incluem os 4 pilares — varia apenas a profundidade"
+
+**TABELA COMPARATIVA (4 colunas):**
+
+┌─────────────┬─────────────┬─────────────┬─────────────┐
+│ ESSENCIAL   │ PROFISSIONAL│ EMPRESARIAL │ ENTERPRISE  │
+│             │ ⭐ POPULAR  │             │ SOB CONSULTA│
+├─────────────┼─────────────┼─────────────┼─────────────┤
+│ **R$ 997**  │ **R$ 1.997**│ **R$ 3.997**│ Personalizado│
+│ /mês        │ /mês        │ /mês        │             │
+│             │             │             │             │
+│ Até 10      │ 11-50       │ 51-200      │ 200+        │
+│ colabora-   │ colabora-   │ colabora-   │ colabora-   │
+│ dores       │ dores       │ dores       │ dores       │
+├─────────────┼─────────────┼─────────────┼─────────────┤
+│ **4 PILARES INCLUSOS:**                               │
+├─────────────┼─────────────┼─────────────┼─────────────┤
+│ 🏛️ LEI      │ 🏛️ LEI      │ 🏛️ LEI      │ 🏛️ LEI      │
+│ Básico      │ Completo    │ Completo +  │ Dedicado    │
+│             │             │ Assessoria  │             │
+│             │             │             │             │
+│ 📋 REGRAS   │ 📋 REGRAS   │ 📋 REGRAS   │ 📋 REGRAS   │
+│ Essencial   │ Completo    │ Avançado    │ Customizado │
+│             │             │             │             │
+│ ✅ CONFORMI-│ ✅ CONFORMI-│ ✅ CONFORMI-│ ✅ CONFORMI-│
+│ DADE        │ DADE        │ DADE        │ DADE        │
+│ DPO Online  │ DPO Dedicado│ DPO + Backup│ DPO Full    │
+│             │             │             │ Time        │
+│             │             │             │             │
+│ 👤 TITULAR  │ 👤 TITULAR  │ 👤 TITULAR  │ 👤 TITULAR  │
+│ Canal básico│ Canal +     │ Portal      │ Múltiplos   │
+│             │ Workflow    │ completo    │ canais      │
+├─────────────┼─────────────┼─────────────┼─────────────┤
+│ **ENTREGÁVEIS DETALHADOS:**                           │
+├─────────────┼─────────────┼─────────────┼─────────────┤
+│ • RIPD      │ • RIPD      │ • RIPD      │ • Todos     │
+│ • ROPA      │ • ROPA      │ • ROPA      │   relatórios│
+│             │ • LIA       │ • LIA       │   completos │
+│             │             │ • DIA       │             │
+│             │             │             │             │
+│ • Política  │ • Todas     │ • Todas     │ • Todas     │
+│   Privaci-  │   políticas │   políticas │   políticas │
+│   dade      │             │ • Contratos │   customiza-│
+│             │             │   DPA       │   das       │
+│             │             │             │             │
+│ • 2 treina- │ • 4 treina- │ • Treina-   │ • Treina-   │
+│   mentos    │   mentos    │   mentos    │   mentos    │
+│   online    │   online +  │   ilimitados│   ilimitados│
+│   (2h)      │   1 presen- │             │   + presen- │
+│             │   cial (8h) │             │   ciais     │
+│             │             │             │             │
+│ • Suporte   │ • Suporte   │ • Suporte   │ • Suporte   │
+│   e-mail    │   e-mail +  │   prioritá- │   24/7      │
+│   (48h)     │   WhatsApp  │   rio (4h)  │   dedicado  │
+│             │   (24h)     │             │             │
+│             │             │             │             │
+│ ❌ Auditoria│ ✅ 1 Audi-  │ ✅ 2 Audi-  │ ✅ Audito-  │
+│             │   toria/ano │   torias/ano│   rias      │
+│             │             │             │   trimest.  │
+│             │             │             │             │
+│ ❌ Jurídico │ ✅ 5h       │ ✅ 15h      │ ✅ Ilimitado│
+│             │   incluídas │   incluídas │             │
+│             │             │             │             │
+│ ❌ Estatuto │ ❌ Estatuto │ ✅ Estatuto │ ✅ Estatuto │
+│   Digital   │   (+R$1.500)│   incluído  │   completo  │
+├─────────────┼─────────────┼─────────────┼─────────────┤
+│ [Contratar] │ [Contratar] │ [Contratar] │ [Consultar] │
+└─────────────┴─────────────┴─────────────┴─────────────┘
+
+**DESTAQUE PROMOCIONAL (laranja):**
+🔥 PROMOÇÃO LANÇAMENTO (válida até 31/03/2026):
+DPO CERTIFICADO por apenas R$ 299/mês nos primeiros 6 meses
+(Plano Essencial — depois R$ 997/mês | Contrato 12 meses)
+
+**Observações:**
+- Todos os planos: contrato 12 meses, pagamento mensal
+- Sem taxa de adesão ou setup
+- 7 dias garantia ou dinheiro de volta
+- Cancelamento sem multa após 12 meses
+
+═══════════════════════════════════════════════════════════════════════
+
+## SEÇÃO 5: SERVIÇOS ADICIONAIS (À LA CARTE)
+
+Background: Cinza claro
+Título: "Serviços Modulares Sob Demanda"
+
+[Mesma estrutura anterior de serviços adicionais com pricing]
+
+═══════════════════════════════════════════════════════════════════════
+
+## SEÇÃO 6: QUEM SOMOS (INSTITUCIONAL — NÃO PERSONALISTA)
+
+Background: Branco
+Layout: Texto centralizado + Grid 3 colunas
+
+**Título:** "4 Pilares LGPD — Expertise Multidisciplinar"
+
+**Texto corporativo (3-4 parágrafos):**
+
+A 4 Pilares LGPD é uma consultoria especializada em proteção de dados 
+e conformidade legal com abordagem única baseada em quatro pilares 
+fundamentais: Lei, Regras, Conformidade e Direitos do Titular.
+
+Nossa equipe multidisciplinar combina expertise em Direito, Tecnologia 
+da Informação e Governança de Dados para oferecer soluções completas 
+e integradas. Trabalhamos com metodologia ágil que garante adequação 
+em 30-90 dias, mantendo conformidade contínua através de monitoramento 
+e governança permanente.
+
+Com sede em Palmas-TO e atendimento 100% remoto em todo o Brasil, 
+já auxiliamos mais de 100 organizações de diversos setores e portes 
+na adequação à LGPD, Marco Civil da Internet e Estatuto Digital da 
+Criança e do Adolescente.
+
+**CNPJ:** 58.551.044/0001-90  
+**Razão Social:** 4 PILARES LGPD "LEI-REGRAS-CONFORMIDADE-TITULAR DOS DADOS"
+
+**GRID 3 COLUNAS (Equipe Multidisciplinar):**
+
+┌──────────────────────────────────┐
+│ ⚖️ **COORDENAÇÃO ACADÊMICA**     │
+│                                  │
+│ **Dr. João Pedro Pereira Passos**│
+│ Fundador e Coordenador           │
+│                                  │
+│ • Doutor em Biotecnologia        │
+│   (Rede BIONORTE - UFT/UFPA)     │
+│ • Mestre em Planejamento Tático  │
+│ • Professor Universitário        │
+│   (UNITOP - Direito Digital)     │
+│ • Pesquisador UFT                │
+│ • Livro em publicação:           │
+│   "Direito Digital" (Ed. Fórum)  │
+│ • ORCID: 0000-0001-7181-4587     │
+└──────────────────────────────────┘
+
+┌──────────────────────────────────┐
+│ ⚖️ **EQUIPE JURÍDICA**           │
+│                                  │
+│ **Escritório de Advocacia        │
+│ Vinculado**                      │
+│                                  │
+│ • Registro OAB-TO                │
+│ • Defesa processos ANPD          │
+│ • Litígios judiciais             │
+│ • Due diligence M&A              │
+│ • Pareceres técnicos             │
+│ • Contratos DPA/NDA              │
+│ • Assessoria regulatória         │
+└──────────────────────────────────┘
+
+┌──────────────────────────────────┐
+│ 💻 **EQUIPE DE TI**              │
+│                                  │
+│ **Especialistas em Segurança     │
+│ da Informação**                  │
+│                                  │
+│ • Arquitetura de segurança       │
+│ • Implementação técnica LGPD     │
+│ • Criptografia e controles       │
+│ • Testes de vulnerabilidade      │
+│ • Gestão de incidentes           │
+│ • Adequação de sistemas          │
+│ • Infraestrutura de dados        │
+└──────────────────────────────────┘
+
+**Quote institucional (destaque, centralizado):**
+"Nossa missão é democratizar o acesso à conformidade legal em proteção 
+de dados, oferecendo soluções completas, ágeis e com o melhor 
+custo-benefício do mercado."
+
+═══════════════════════════════════════════════════════════════════════
+
+## SEÇÃO 7: DIFERENCIAIS COMPETITIVOS
+
+Background: Azul escuro (#0f172a)
+Texto: Branco
+Título: "Por Que Escolher a 4 Pilares LGPD?"
+
+**GRID 2x3 (Cards grandes):**
+
+┌────────────────────────┬────────────────────────┐
+│ 🏛️ METODOLOGIA         │ 💰 MELHOR PREÇO        │
+│ 4 PILARES              │                        │
+│                        │                        │
+│ Abordagem estruturada  │ R$ 299/mês primeiros   │
+│ baseada em Lei,        │ 6 meses (DPO           │
+│ Regras, Conformidade   │ certificado incluído)  │
+│ e Titular              │                        │
+└────────────────────────┴────────────────────────┘
+┌────────────────────────┬────────────────────────┐
+│ ⚡ ADEQUAÇÃO RÁPIDA    │ 🔒 PRIVACIDADE TOTAL   │
+│                        │                        │
+│ 30-90 dias para        │ NÃO acessamos seus     │
+│ conformidade completa  │ dados. Trabalhamos     │
+│ com processos ágeis    │ apenas com arquitetura │
+│                        │                        │
+└────────────────────────┴────────────────────────┘
+┌────────────────────────┬────────────────────────┐
+│ 👥 EQUIPE              │ 🌐 NACIONAL            │
+│ MULTIDISCIPLINAR       │                        │
+│                        │                        │
+│ Jurídico + TI +        │ Atendimento 100%       │
+│ Acadêmico integrados   │ remoto em todo Brasil  │
+│                        │                        │
+└────────────────────────┴────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════
+
+## SEÇÃO 8: COMO FUNCIONA (Timeline 5 Etapas)
+
+[Mesma estrutura anterior: Contratação → Diagnóstico → Planejamento → 
+Implementação → Governança]
+
+═══════════════════════════════════════════════════════════════════════
+
+## SEÇÃO 9: FAQ COMPLETO (20+ perguntas)
+
+[Mesma estrutura anterior com perguntas categorizadas]
+
+═══════════════════════════════════════════════════════════════════════
+
+## SEÇÃO 10: CTA FINAL
+
+Background: Gradiente roxo (#7c3aed → #5b21b6)
+Texto: Branco
+
+**H2:** "Proteja Sua Empresa com os 4 Pilares da Conformidade"
+
+**Subtítulo:**
+"Lei • Regras • Conformidade • Titular"
+
+**3 Botões:**
+[💰 Ver Planos] [💬 WhatsApp] [📅 Diagnóstico]
+
+**Badge oferta:**
+🔥 DPO R$ 299/mês — Oferta limitada até 31/03/2026
+
+═══════════════════════════════════════════════════════════════════════
+
+## FOOTER
+
+Background: Azul escuro (#0f172a)
+Layout: 4 colunas
+
+┌──────────────┬──────────────┬──────────────┬──────────────┐
+│ 4 PILARES    │ 4 PILARES    │ PLANOS       │ RECURSOS     │
+│ LGPD         │ CONCEITUAIS  │              │              │
+│              │              │              │              │
+│ Lei • Regras │ 🏛️ Lei       │ • Essencial  │ • Blog       │
+│ Conformidade │ 📋 Regras    │ • Profissio- │ • FAQ        │
+│ Titular      │ ✅ Conformi- │   nal        │ • Legislação │
+│              │   dade       │ • Empresarial│ • Materiais  │
+│ CNPJ:        │ 👤 Titular   │ • Enterprise │ • Área       │
+│ 58.551.044/  │              │              │   Cliente    │
+│ 0001-90      │ SERVIÇOS     │ CONTATO      │              │
+│              │ • DPO        │              │              │
+│ Proteção de  │ • Documentos │ 📱 (63)      │              │
+│ dados com    │ • Treina-    │ 98438-1782   │              │
+│ abordagem    │   mento      │              │              │
+│ estruturada  │ • Jurídico   │ 📧 contato@  │              │
+│              │ • Auditoria  │ 4pilares.com │              │
+│              │              │              │              │
+│              │              │ 📍 Palmas-TO │              │
+└──────────────┴──────────────┴──────────────┴──────────────┘
+
+**Copyright:**
+© 2026 4 Pilares LGPD "Lei-Regras-Conformidade-Titular dos Dados"
+CNPJ: 58.551.044/0001-90 | Todos os direitos reservados
+
+**Bases Legais:**
+Lei 13.709/2018 (LGPD) | Lei 12.965/2014 (MCI) | Lei 15.211/2025
+
+═══════════════════════════════════════════════════════════════════════
+
+## BOTÃO WHATSAPP FLUTUANTE
+
+Posição: Canto inferior direito
+Cor: Verde WhatsApp (#25d366)
+Badge: "R$ 299"
+Link: https://wa.me/5563984381782?text=Quero%20contratar%20DPO%20por%20R%24299
+
+═══════════════════════════════════════════════════════════════════════
+
+## ARQUITETURA MODULAR/SUBDOMÍNIOS (OPCIONAL)
+
+Se quiser criar subdomínios/seções separadas:
+
+**lei.sajodiagnos.club** → Página dedicada ao Pilar LEI
+- LGPD completa
+- Marco Civil completo
+- Estatuto Digital completo
+- Atualizações legislativas
+
+**regras.sajodiagnos.club** → Página dedicada ao Pilar REGRAS
+- Biblioteca de políticas
+- Modelos de documentos
+- Framework de governança
+- POPs e procedimentos
+
+**conformidade.sajodiagnos.club** → Página dedicada ao Pilar CONFORMIDADE
+- Portal DPO
+- Auditoria online
+- GAP Analysis self-service
+- Certificações
+
+**titular.sajodiagnos.club** → Página dedicada ao Pilar TITULAR
+- Portal público de privacidade
+- Canal de requisições
+- FAQ titulares
+- Exercício de direitos
+
+OU manter tudo em **sajodiagnos.club** com âncoras:
+- sajodiagnos.club#lei
+- sajodiagnos.club#regras
+- sajodiagnos.club#conformidade
+- sajodiagnos.club#titular
+
+═══════════════════════════════════════════════════════════════════════
+
+## SEO & META TAGS
+```html
+<title>4 Pilares LGPD - Lei, Regras, Conformidade e Titular | DPO R$ 299</title>
+<meta name="description" content="Consultoria LGPD baseada em 4 pilares: Lei, Regras, Conformidade e Titular. DPO certificado a partir de R$ 299/mês. CNPJ: 58.551.044/0001-90">
+<meta name="keywords" content="4 pilares LGPD, DPO barato, adequação LGPD, Lei 15.211, Marco Civil, consultoria proteção dados">
+```
+
+═══════════════════════════════════════════════════════════════════════
+
+## DIFERENCIAIS DESTA ARQUITETURA
+
+✅ **Conceito único** - 4 Pilares como estrutura conceitual (não apenas nome)
+✅ **Navegação intuitiva** - Cada pilar é seção navegável
+✅ **Menos personalista** - Foco na empresa e metodologia
+✅ **Corporativo** - Tom institucional profissional
+✅ **Modular** - Pode expandir para subdomínios
+✅ **Educativo** - Explica O QUE cada pilar significa
+✅ **Memorável** - 4 cores = 4 pilares = fácil lembrar
+✅ **Escalável** - Estrutura permite crescimento
+
+═══════════════════════════════════════════════════════════════════════
+
+CRIAR SITE CORPORATIVO, MODULAR, BASEADO NOS 4 PILARES CONCEITUAIS.
+FOCO: EMPRESA (NÃO FUNDADOR), METODOLOGIA, CONVERSÃO.
+TOM: INSTITUCIONAL, PROFISSIONAL, ORIENTADO A SOLUÇÕES.
+OBJETIVO: POSICIONAR COMO CONSULTORIA ESTRUTURADA E CONFIÁVEL.
+
+═══════════════════════════════════════════════════════════════════════
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE CONSULTORIA EM PROTEÇÃO DE DADOS
+LGPD, MARCO CIVIL DA INTERNET E ESTATUTO DIGITAL
+═══════════════════════════════════════════════════════════════════════
+
+CONTRATANTE:
+Nome/Razão Social: _________________________________________________
+CNPJ/CPF: _________________________________________________________
+Endereço: _________________________________________________________
+CEP: _________________ Cidade: __________________ UF: ___________
+E-mail: ___________________________________________________________
+Telefone: _________________________________________________________
+Representante Legal: _______________________________________________
+CPF Representante: _________________________________________________
+
+CONTRATADA:
+Razão Social: 4 PILARES LGPD "LEI-REGRAS-CONFORMIDADE-TITULAR DOS DADOS"
+CNPJ: 58.551.044/0001-90
+Endereço: [endereço completo]
+CEP: _____________ Palmas/TO
+E-mail: contato@sajodiagnos.club
+Telefone: (63) 98438-1782
+Representante: Dr. João Pedro Pereira Passos
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA PRIMEIRA — DO OBJETO
+═══════════════════════════════════════════════════════════════════════
+
+1.1. O presente contrato tem por objeto a prestação de serviços de 
+consultoria em proteção de dados pessoais, adequação à Lei Geral de 
+Proteção de Dados (Lei 13.709/2018), Marco Civil da Internet (Lei 
+12.965/2014) e Estatuto Digital da Criança e do Adolescente (Lei 
+15.211/2025), através da metodologia "4 PILARES" (Lei, Regras, 
+Conformidade e Titular).
+
+1.2. PLANO CONTRATADO:
+[  ] ESSENCIAL (até 10 colaboradores)
+[  ] PROFISSIONAL (11-50 colaboradores)
+[  ] EMPRESARIAL (51-200 colaboradores)
+[  ] ENTERPRISE (200+ colaboradores)
+
+1.3. MODALIDADE:
+[  ] PROMOÇÃO LANÇAMENTO (50% desconto primeiros 12 meses)
+[  ] PLANO REGULAR
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA SEGUNDA — DOS SERVIÇOS INCLUSOS
+═══════════════════════════════════════════════════════════════════════
+
+2.1. A CONTRATADA prestará os seguintes serviços conforme o plano 
+escolhido:
+
+**PILAR 1 - LEI (Base Legal):**
+a) Análise de aplicabilidade das leis LGPD, MCI e Estatuto Digital
+b) Identificação de bases legais para tratamento de dados
+c) Mapeamento de obrigações regulatórias
+d) Monitoramento de atualizações legislativas
+
+**PILAR 2 - REGRAS (Governança):**
+a) Elaboração de Política de Privacidade e Termos de Uso
+b) Relatórios: RIPD, ROPA, LIA, DIA (conforme plano)
+c) Procedimentos Operacionais Padrão (POPs)
+d) Framework de governança de dados
+
+**PILAR 3 - CONFORMIDADE (Certificação):**
+a) DPO (Data Protection Officer) certificado e registrado ANPD
+b) Auditorias periódicas (conforme plano)
+c) GAP Analysis e Assessment de maturidade
+d) Treinamentos e capacitações (conforme plano)
+
+**PILAR 4 - TITULAR (Direitos):**
+a) Canal de atendimento a titulares de dados
+b) Gestão de requisições (ANPD e titulares)
+c) Portal de privacidade transparente
+d) Gestão de incidentes de segurança
+
+2.2. ACESSO AO PAINEL DE CONTROLE:
+A CONTRATANTE terá acesso a painel de controle web (painel.sajodiagnos.club) 
+para acompanhamento em tempo real de:
+- Status de adequação
+- Documentos gerados
+- Chamados e requisições
+- Treinamentos realizados
+- Relatórios e auditorias
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA TERCEIRA — DO VALOR E FORMA DE PAGAMENTO
+═══════════════════════════════════════════════════════════════════════
+
+3.1. MODALIDADE REGULAR:
+Valor mensal: R$ __________ (_________________ reais)
+Valor total 24 meses: R$ __________ (_________________ reais)
+
+3.2. MODALIDADE PROMOÇÃO LANÇAMENTO (50% DESCONTO):
+
+**PRIMEIROS 12 MESES (Período Promocional):**
+Valor mensal: R$ 150,00 (cento e cinquenta reais)
+Valor total primeiros 12 meses: R$ 1.800,00
+
+**PRÓXIMOS 12 MESES (2º ano):**
+Valor mensal: R$ 300,00 (trezentos reais)
+Valor total segundo ano: R$ 3.600,00
+
+**VALOR TOTAL DO CONTRATO (24 meses):**
+R$ 5.400,00 (cinco mil e quatrocentos reais)
+
+3.3. FORMA DE PAGAMENTO:
+[  ] Boleto bancário (vencimento todo dia ___)
+[  ] Cartão de crédito (recorrência automática)
+[  ] Transferência/PIX
+
+3.4. O pagamento deverá ser efetuado até o dia 05 (cinco) de cada mês, 
+sob pena de aplicação de multa moratória de 2% (dois por cento) sobre 
+o valor em atraso, juros de 1% (um por cento) ao mês e correção 
+monetária pelo IPCA.
+
+3.5. O atraso superior a 30 (trinta) dias no pagamento de qualquer 
+parcela ensejará a suspensão dos serviços, sem prejuízo da cobrança 
+integral do contrato e multas contratuais.
+
+3.6. Não há taxa de adesão ou custo de implementação.
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA QUARTA — DO PRAZO E VIGÊNCIA
+═══════════════════════════════════════════════════════════════════════
+
+4.1. O presente contrato terá vigência de 24 (vinte e quatro) meses, 
+contados da data de sua assinatura, com início em ___/___/______ e 
+término em ___/___/______.
+
+4.2. O contrato será automaticamente renovado por períodos sucessivos 
+de 12 (doze) meses, salvo manifestação contrária de qualquer das 
+partes com antecedência mínima de 60 (sessenta) dias do término da 
+vigência.
+
+4.3. PERÍODO DE FIDELIDADE MÍNIMA:
+- Modalidade Regular: 12 (doze) meses
+- Modalidade Promoção Lançamento: 24 (vinte e quatro) meses
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA QUINTA — DA RESCISÃO E MULTAS CONTRATUAIS
+═══════════════════════════════════════════════════════════════════════
+
+5.1. RESCISÃO POR INICIATIVA DA CONTRATANTE:
+
+**5.1.1. MODALIDADE REGULAR:**
+Em caso de rescisão antes de completados 12 (doze) meses de contrato, 
+a CONTRATANTE pagará multa rescisória correspondente a 50% (cinquenta 
+por cento) das parcelas vincendas até completar o período mínimo de 
+fidelidade.
+
+Fórmula de cálculo:
+Multa = (12 - meses completos) × valor mensal × 50%
+
+**5.1.2. MODALIDADE PROMOÇÃO LANÇAMENTO:**
+
+**A) RESCISÃO NOS PRIMEIROS 12 MESES (Período Promocional):**
+Em caso de rescisão durante os primeiros 12 (doze) meses contratuais, 
+a CONTRATANTE pagará multa rescisória correspondente a 100% (cem por 
+cento) das parcelas vincendas até completar 12 meses, ACRESCIDA de 
+50% (cinquenta por cento) das parcelas do segundo ano.
+
+Fórmula de cálculo:
+Multa = [(12 - meses completos ano 1) × R$ 150,00 × 100%] + 
+        [12 × R$ 300,00 × 50%]
+
+Exemplo: Rescisão no 6º mês:
+Multa = [(12-6) × R$ 150,00 × 100%] + [12 × R$ 300,00 × 50%]
+Multa = [6 × R$ 150,00] + [R$ 1.800,00]
+Multa = R$ 900,00 + R$ 1.800,00 = R$ 2.700,00
+
+**B) RESCISÃO ENTRE 13º E 24º MÊS (Segundo ano):**
+Em caso de rescisão durante o segundo ano contratual (meses 13 a 24), 
+a CONTRATANTE pagará multa rescisória correspondente a 50% (cinquenta 
+por cento) das parcelas vincendas até completar 24 meses.
+
+Fórmula de cálculo:
+Multa = (24 - meses completos) × R$ 300,00 × 50%
+
+Exemplo: Rescisão no 18º mês:
+Multa = (24-18) × R$ 300,00 × 50%
+Multa = 6 × R$ 150,00 = R$ 900,00
+
+5.2. RESCISÃO APÓS PERÍODO DE FIDELIDADE:
+Após cumprido o período de fidelidade (24 meses), qualquer das partes 
+poderá rescindir o contrato mediante comunicação prévia de 60 
+(sessenta) dias, sem incidência de multa rescisória.
+
+5.3. RESCISÃO POR INICIATIVA DA CONTRATADA:
+A CONTRATADA poderá rescindir o contrato nas seguintes hipóteses, sem 
+ônus ou devolução de valores:
+
+a) Inadimplência superior a 30 (trinta) dias;
+b) Descumprimento de obrigações contratuais pela CONTRATANTE;
+c) Fornecimento de informações falsas ou incompletas;
+d) Uso indevido dos serviços ou do painel de controle;
+e) Conduta que possa comprometer a reputação da CONTRATADA.
+
+5.4. GARANTIA DE 7 DIAS (Money-Back):
+A CONTRATANTE tem direito a cancelamento sem qualquer ônus nos 
+primeiros 7 (sete) dias corridos após a assinatura do contrato, com 
+devolução integral de valores eventualmente pagos.
+
+5.5. Toda rescisão deverá ser formalizada por escrito (e-mail ou carta 
+registrada), sendo considerada a data de recebimento pela outra parte.
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA SEXTA — DAS OBRIGAÇÕES DA CONTRATADA
+═══════════════════════════════════════════════════════════════════════
+
+6.1. Prestar os serviços descritos na Cláusula Segunda com qualidade, 
+eficiência e dentro dos prazos acordados.
+
+6.2. Disponibilizar DPO (Data Protection Officer) certificado e 
+registrado perante a ANPD.
+
+6.3. Elaborar toda documentação técnica necessária conforme plano 
+contratado.
+
+6.4. Fornecer acesso ao painel de controle com login e senha 
+individuais.
+
+6.5. Prestar suporte técnico conforme SLA (Service Level Agreement) 
+do plano contratado.
+
+6.6. Manter sigilo absoluto sobre todas as informações da CONTRATANTE.
+
+6.7. NÃO acessar dados pessoais da CONTRATANTE, trabalhando apenas 
+com arquitetura de dados (fluxos, processos, documentação).
+
+6.8. Monitorar atualizações legislativas e regulatórias, comunicando 
+a CONTRATANTE sobre eventuais impactos.
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA SÉTIMA — DAS OBRIGAÇÕES DA CONTRATANTE
+═══════════════════════════════════════════════════════════════════════
+
+7.1. Efetuar o pagamento das mensalidades nos prazos estipulados.
+
+7.2. Fornecer informações completas, precisas e atualizadas sobre seus 
+processos de tratamento de dados.
+
+7.3. Designar interlocutor responsável para comunicação com a 
+CONTRATADA.
+
+7.4. Implementar as recomendações técnicas e jurídicas fornecidas pela 
+CONTRATADA.
+
+7.5. Participar dos treinamentos e capacitações oferecidos.
+
+7.6. Comunicar imediatamente qualquer incidente de segurança envolvendo 
+dados pessoais.
+
+7.7. Manter confidencialidade sobre metodologias, documentos e materiais 
+fornecidos pela CONTRATADA.
+
+7.8. Utilizar o painel de controle conforme Termo de Uso específico.
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA OITAVA — DA PROPRIEDADE INTELECTUAL
+═══════════════════════════════════════════════════════════════════════
+
+8.1. Todos os documentos, relatórios, políticas e materiais produzidos 
+pela CONTRATADA especificamente para a CONTRATANTE serão de propriedade 
+desta última.
+
+8.2. A metodologia "4 PILARES", frameworks, templates genéricos, 
+materiais de treinamento e o sistema/painel de controle permanecem de 
+propriedade exclusiva da CONTRATADA.
+
+8.3. É vedada a reprodução, distribuição ou comercialização de 
+materiais de propriedade da CONTRATADA sem autorização expressa.
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA NONA — DA CONFIDENCIALIDADE E SIGILO
+═══════════════════════════════════════════════════════════════════════
+
+9.1. As partes se comprometem a manter sigilo absoluto sobre todas as 
+informações confidenciais trocadas durante a vigência deste contrato.
+
+9.2. Consideram-se confidenciais: dados da empresa, processos internos, 
+documentação técnica, estratégias de negócio, dados pessoais tratados, 
+vulnerabilidades identificadas.
+
+9.3. A obrigação de confidencialidade permanece vigente por 5 (cinco) 
+anos após o término do contrato.
+
+9.4. A CONTRATADA NÃO terá acesso a dados pessoais tratados pela 
+CONTRATANTE, trabalhando exclusivamente com informações sobre a 
+arquitetura e fluxos de dados.
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA DÉCIMA — DO SUPORTE E SLA
+═══════════════════════════════════════════════════════════════════════
+
+10.1. HORÁRIO DE ATENDIMENTO:
+Segunda a sexta-feira, das 8h às 18h (horário de Brasília), exceto 
+feriados nacionais.
+
+10.2. SLA (SERVICE LEVEL AGREEMENT) POR PLANO:
+
+**PLANO ESSENCIAL:**
+- E-mail: resposta em até 48h úteis
+- Urgências: sem garantia de SLA diferenciado
+
+**PLANO PROFISSIONAL:**
+- E-mail: resposta em até 24h úteis
+- WhatsApp: resposta em até 24h úteis
+- Urgências: resposta em até 8h úteis
+
+**PLANO EMPRESARIAL:**
+- E-mail/WhatsApp: resposta prioritária em até 4h úteis
+- Urgências: resposta em até 2h úteis
+
+**PLANO ENTERPRISE:**
+- Suporte dedicado 24/7
+- Telefone direto com time técnico
+- Resposta imediata para urgências
+
+10.3. Chamados podem ser abertos via: e-mail, WhatsApp, ou painel de 
+controle (painel.sajodiagnos.club).
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA DÉCIMA PRIMEIRA — DAS DISPOSIÇÕES GERAIS
+═══════════════════════════════════════════════════════════════════════
+
+11.1. O presente contrato substitui e cancela quaisquer acordos, 
+propostas ou entendimentos anteriores entre as partes.
+
+11.2. Qualquer alteração contratual deve ser formalizada por escrito 
+e assinada por ambas as partes.
+
+11.3. A tolerância de uma parte quanto ao descumprimento de obrigações 
+pela outra não implica em renúncia de direitos.
+
+11.4. A invalidade de qualquer cláusula não afeta a validade das demais.
+
+11.5. O presente contrato é celebrado em caráter irrevogável e 
+irretratável, obrigando as partes e seus sucessores.
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA DÉCIMA SEGUNDA — DO FORO
+═══════════════════════════════════════════════════════════════════════
+
+12.1. Fica eleito o foro da Comarca de Palmas/TO para dirimir quaisquer 
+questões oriundas deste contrato, renunciando as partes a qualquer outro, 
+por mais privilegiado que seja.
+
+═══════════════════════════════════════════════════════════════════════
+
+E por estarem justos e contratados, assinam o presente instrumento em 
+02 (duas) vias de igual teor e forma, na presença de duas testemunhas.
+
+Local: _________________________, ____ de _____________ de 20___.
+
+
+_____________________________          _____________________________
+CONTRATANTE                            CONTRATADA
+Nome:                                  4 PILARES LGPD
+CPF/CNPJ:                              CNPJ: 58.551.044/0001-90
+                                       Dr. João Pedro Pereira Passos
+
+
+TESTEMUNHAS:
+
+_____________________________          _____________________________
+Nome:                                  Nome:
+CPF:                                   CPF:
+
+
+
+
+
+═══════════════════════════════════════════════════════════════════════
+FUNIL DE VENDAS - JORNADA DO CLIENTE
+═══════════════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────────┐
+│ ETAPA 1: DIVULGAÇÃO (TOPO DO FUNIL)                                │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                      │
+│ CANAIS:                                                             │
+│ • Google Ads (palavras-chave: LGPD, DPO, adequação LGPD)           │
+│ • Facebook/Instagram Ads                                            │
+│ • LinkedIn Ads (B2B)                                                │
+│ • SEO orgânico (blog.sajodiagnos.club)                             │
+│ • Webinars gratuitos                                                │
+│ • Parcerias OAB/entidades                                           │
+│ • Indicações de clientes                                            │
+│                                                                      │
+│ LANDING PAGES ESPECÍFICAS:                                          │
+│ • /agente-pequeno-porte (foco na promoção R$ 150)                  │
+│ • /estatuto-digital (urgência Lei 15.211/2025)                     │
+│ • /dpo-certificado                                                  │
+│ • /adequacao-rapida                                                 │
+│                                                                      │
+│ CONVERSÃO PARA:                                                     │
+│ → Lead magnet (e-book gratuito)                                     │
+│ → Diagnóstico gratuito                                              │
+│ → Webinar ao vivo                                                   │
+│ → Calculadora de adequação                                          │
+└─────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────┐
+│ ETAPA 2: CONVENCIMENTO (MEIO DO FUNIL)                             │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                      │
+│ PÁGINA: /planos-e-precos                                            │
+│                                                                      │
+│ ELEMENTOS DE CONVERSÃO:                                             │
+│ ✅ Tabela comparativa de planos                                     │
+│ ✅ Destaque promoção 50% (R$ 150/mês primeiros 12 meses)           │
+│ ✅ Badge "EXCLUSIVO AGENTES DE PEQUENO PORTE"                       │
+│ ✅ Calculadora: "Sua empresa se qualifica?"                         │
+│ ✅ Depoimentos/cases de sucesso                                     │
+│ ✅ Garantia 7 dias money-back                                       │
+│ ✅ FAQ específico sobre agentes de pequeno porte                    │
+│ ✅ Comparação com concorrentes                                      │
+│ ✅ Chat online (WhatsApp)                                           │
+│                                                                      │
+│ COPY EDUCATIVO (baseado em Macher Tecnologia):                      │
+│                                                                      │
+│ ┌───────────────────────────────────────────────────────────────┐  │
+│ │ 🎯 VOCÊ SE QUALIFICA PARA A PROMOÇÃO?                         │  │
+│ │                                                                │  │
+│ │ Esta oferta especial de R$ 150/mês é EXCLUSIVA para           │  │
+│ │ **Agentes de Tratamento de Pequeno Porte** conforme          │  │
+│ │ definido no Art. 2º da Resolução CD/ANPD nº 2/2022.          │  │
+│ │                                                                │  │
+│ │ **Você é Agente de Pequeno Porte se:**                        │  │
+│ │                                                                │  │
+│ │ ✅ Receita bruta anual de até R$ 78 milhões no Brasil         │  │
+│ │    (limite equiparado às microempresas e empresas de          │  │
+│ │    pequeno porte - Lei Complementar 123/2006)                 │  │
+│ │                                                                │  │
+│ │ ✅ Trata dados de até 50 mil titulares no último ano          │  │
+│ │    (excluindo dados para contato)                             │  │
+│ │                                                                │  │
+│ │ ✅ NÃO trata dados sensíveis em larga escala                  │  │
+│ │    (dados sensíveis: origem racial, convicção religiosa,      │  │
+│ │    opinião política, filiação sindical, dados genéticos,      │  │
+│ │    biométricos, saúde, vida sexual)                           │  │
+│ │                                                                │  │
+│ │ **IMPORTANTE:** Após a contratação, você preencherá um        │  │
+│ │ questionário de qualificação. Se sua empresa NÃO se           │  │
+│ │ enquadrar como Agente de Pequeno Porte, você poderá:         │  │
+│ │                                                                │  │
+│ │ • Migrar para plano regular (R$ 300/mês)                      │  │
+│ │ • Cancelar com 30 dias de antecedência (multa aplicável)      │  │
+│ │                                                                │  │
+│ │ [Fazer Teste de Qualificação Agora] [Dúvidas? Fale Conosco] │  │
+│ └───────────────────────────────────────────────────────────────┘  │
+│                                                                      │
+│ FERRAMENTAS INTERATIVAS:                                            │
+│ • Calculadora: "Minha empresa é de pequeno porte?"                 │
+│   Input: receita anual, nº titulares, tipo de dados                │
+│   Output: Sim/Não + explicação                                     │
+│                                                                      │
+│ CTAs:                                                               │
+│ [Contratar Agora - R$ 150/mês] [Falar com Especialista]           │
+└─────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────┐
+│ ETAPA 3: CHECKOUT E PAGAMENTO (FUNDO DO FUNIL)                     │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                      │
+│ URL: /checkout                                                       │
+│                                                                      │
+│ FLUXO DO CHECKOUT:                                                  │
+│                                                                      │
+│ 📋 PASSO 1: DADOS DA EMPRESA                                        │
+│    ┌────────────────────────────────────────────────────────────┐  │
+│    │ Razão Social: ___________________________________            │  │
+│    │ CNPJ: ___________________________________________            │  │
+│    │ Inscrição Estadual: _____________________________            │  │
+│    │ Endereço completo: ______________________________            │  │
+│    │ CEP: _____________ Cidade: __________ UF: ___               │  │
+│    │                                                              │  │
+│    │ Responsável Legal: ______________________________            │  │
+│    │ CPF: ____________________________________________            │  │
+│    │ E-mail: _________________________________________            │  │
+│    │ Telefone/WhatsApp: ______________________________            │  │
+│    │                                                              │  │
+│    │ Número de colaboradores: [___]                               │  │
+│    │ Receita bruta anual: R$ [__________]                        │  │
+│    │ Número estimado titulares: [_____]                          │  │
+│    │                                                              │  │
+│    │ [⬜] Trata dados sensíveis em larga escala                   │  │
+│    │                                                              │  │
+│    │ ⚠️ Estas informações serão verificadas após o pagamento      │  │
+│    │    para confirmar elegibilidade à promoção.                  │  │
+│    └────────────────────────────────────────────────────────────┘  │
+│                                                                      │
+│ 📋 PASSO 2: CONFIRMAÇÃO DO PLANO                                    │
+│    ┌────────────────────────────────────────────────────────────┐  │
+│    │ PLANO SELECIONADO: Essencial (Promoção Agente Pequeno Porte)│  │
+│    │                                                              │  │
+│    │ Período promocional (12 meses): R$ 150,00/mês               │  │
+│    │ Período normal (meses 13-24): R$ 300,00/mês                 │  │
+│    │                                                              │  │
+│    │ TOTAL PRIMEIROS 12 MESES: R$ 1.800,00                       │  │
+│    │ TOTAL 24 MESES: R$ 5.400,00                                 │  │
+│    │                                                              │  │
+│    │ Vencimento mensal: Dia [05] de cada mês                     │  │
+│    │ Primeira cobrança: [05/04/2026]                             │  │
+│    └────────────────────────────────────────────────────────────┘  │
+│                                                                      │
+│ ✅ PASSO 3: ACEITE DOS TERMOS                                       │
+│    ┌────────────────────────────────────────────────────────────┐  │
+│    │ [✓] Li e aceito o Contrato de Prestação de Serviços        │  │
+│    │     [Ver contrato completo]                                 │  │
+│    │                                                              │  │
+│    │ [✓] Li e aceito os Termos de Uso do Painel                 │  │
+│    │     [Ver termos]                                            │  │
+│    │                                                              │  │
+│    │ [✓] Li e concordo com a Política de Privacidade            │  │
+│    │     [Ver política]                                          │  │
+│    │                                                              │  │
+│    │ [✓] Declaro que as informações fornecidas são verdadeiras  │  │
+│    │     e estou ciente de que:                                  │  │
+│    │                                                              │  │
+│    │     ⚠️ CONDIÇÕES DA PROMOÇÃO:                               │  │
+│    │                                                              │  │
+│    │     • Esta promoção contempla EXCLUSIVAMENTE Agentes de     │  │
+│    │       Tratamento de Pequeno Porte conforme definido no      │  │
+│    │       Art. 2º da Resolução CD/ANPD nº 2/2022               │  │
+│    │                                                              │  │
+│    │     • Após o pagamento, devo preencher formulário de        │  │
+│    │       qualificação em até 7 dias corridos                   │  │
+│    │                                                              │  │
+│    │     • Se minha empresa NÃO se qualificar como Agente de     │  │
+│    │       Pequeno Porte, poderei:                               │  │
+│    │       - Migrar para plano regular (R$ 300/mês), OU          │  │
+│    │       - Cancelar mediante aviso prévio de 30 dias,          │  │
+│    │         pagando multa rescisória conforme contrato          │  │
+│    │                                                              │  │
+│    │     • Contrato com fidelidade de 24 meses                   │  │
+│    │                                                              │  │
+│    │     • Rescisão antecipada: multa de 100% das parcelas       │  │
+│    │       vincendas do 1º ano + 50% das parcelas do 2º ano      │  │
+│    │                                                              │  │
+│    │     • Garantia de 7 dias: posso cancelar em até 7 dias      │  │
+│    │       corridos sem qualquer ônus                            │  │
+│    │                                                              │  │
+│    │ [✓] Autorizo envio de comunicações por e-mail e WhatsApp   │  │
+│    └────────────────────────────────────────────────────────────┘  │
+│                                                                      │
+│ 💳 PASSO 4: FORMA DE PAGAMENTO                                      │
+│    ┌────────────────────────────────────────────────────────────┐  │
+│    │ Escolha a forma de pagamento:                               │  │
+│    │                                                              │  │
+│    │ ⚪ Cartão de Crédito (recorrência automática)               │  │
+│    │    Número: [____-____-____-____]                           │  │
+│    │    Validade: [__/__] CVV: [___]                            │  │
+│    │    Nome titular: ___________________________________        │  │
+│    │    CPF titular: ____________________________________        │  │
+│    │                                                              │  │
+│    │ ⚪ Boleto Bancário (vencimento mensal dia 05)               │  │
+│    │    ⚠️ Cobrança manual todo mês                              │  │
+│    │                                                              │  │
+│    │ ⚪ PIX (QR Code mensal)                                      │  │
+│    │    ⚠️ Você receberá QR Code por e-mail todo mês             │  │
+│    │                                                              │  │
+│    │ 🔒 Pagamento 100% seguro - certificado SSL                  │  │
+│    │ 🔒 Dados processados via gateway Stripe/Mercado Pago        │  │
+│    └────────────────────────────────────────────────────────────┘  │
+│                                                                      │
+│ 🎯 RESUMO DO PEDIDO:                                                │
+│    ┌────────────────────────────────────────────────────────────┐  │
+│    │ Plano: Essencial (Promoção Agente Pequeno Porte)           │  │
+│    │ Primeira cobrança: R$ 150,00 (hoje)                        │  │
+│    │ Próximas 11 cobranças: R$ 150,00/mês                       │  │
+│    │ Cobranças 13-24: R$ 300,00/mês                             │  │
+│    │                                                              │  │
+│    │ [FINALIZAR CONTRATAÇÃO]                                     │  │
+│    └────────────────────────────────────────────────────────────┘  │
+└─────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────┐
+│ ETAPA 4: PÓS-PAGAMENTO (AUTOMAÇÃO DE E-MAILS)                      │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                      │
+│ ✅ PAGAMENTO CONFIRMADO                                             │
+│                                                                      │
+│ AÇÃO 1: E-MAIL IMEDIATO (automático em 1 minuto)                   │
+│                                                                      │
+│ ┌───────────────────────────────────────────────────────────────┐  │
+│ │ De: contato@sajodiagnos.club                                   │  │
+│ │ Para: cliente@empresa.com                                      │  │
+│ │ Assunto: ✅ Bem-vindo à 4 Pilares LGPD - Próximos Passos      │  │
+│ │                                                                │  │
+│ │ Olá, [Nome Responsável]!                                       │  │
+│ │                                                                │  │
+│ │ Seu pagamento foi confirmado com sucesso! 🎉                   │  │
+│ │                                                                │  │
+│ │ Bem-vindo à 4 Pilares LGPD. Estamos muito felizes em tê-lo    │  │
+│ │ como cliente.                                                  │  │
+│ │                                                                │  │
+│ │ 📎 DOCUMENTOS EM ANEXO:                                        │  │
+│ │ • Recibo de pagamento (PDF)                                    │  │
+│ │ • Contrato de Prestação de Serviços assinado (PDF)           │  │
+│ │ • Minuta de Procuração para preenchimento (DOCX)              │  │
+│ │                                                                │  │
+│ │ 🎯 PRÓXIMOS PASSOS OBRIGATÓRIOS:                               │  │
+│ │                                                                │  │
+│ │ 1️⃣ PREENCHER FORMULÁRIO DE QUALIFICAÇÃO (ATÉ 7 DIAS)          │  │
+│ │    Precisamos verificar se sua empresa se enquadra como       │  │
+│ │    Agente de Tratamento de Pequeno Porte conforme            │  │
+│ │    Resolução CD/ANPD nº 2/2022.                               │  │
+│ │                                                                │  │
+│ │    👉 [PREENCHER FORMULÁRIO AGORA]                             │  │
+│ │    (link: formulario.sajodiagnos.club/qualificacao)           │  │
+│ │                                                                │  │
+│ │    ⚠️ ATENÇÃO: Este formulário é OBRIGATÓRIO e deve ser       │  │
+│ │    preenchido em até 7 dias corridos. Caso sua empresa        │  │
+│ │    NÃO se qualifique como Agente de Pequeno Porte, você       │  │
+│ │    receberá orientações sobre migração de plano ou            │  │
+│ │    cancelamento.                                               │  │
+│ │                                                                │  │
+│ │ 2️⃣ PREENCHER E ENVIAR PROCURAÇÃO                               │  │
+│ │    Para atuar como DPO da sua empresa, precisamos da          │  │
+│ │    procuração preenchida e assinada.                          │  │
+│ │                                                                │  │
+│ │    Você pode escolher:                                         │  │
+│ │    • Procuração PÚBLICA (cartório)                            │  │
+│ │    • Procuração PARTICULAR com firma reconhecida              │  │
+│ │      (assinar via e-Gov ou certificado digital válido)       │  │
+│ │                                                                │  │
+│ │    📤 Envie digitalizada para: docs@sajodiagnos.club          │  │
+│ │                                                                │  │
+│ │ 3️⃣ ACESSAR SEU PAINEL DE CONTROLE                             │  │
+│ │    Criamos seu acesso ao painel:                              │  │
+│ │                                                                │  │
+│ │    🔗 painel.sajodiagnos.club                                  │  │
+│ │    📧 Login: [e-mail cadastrado]                              │  │
+│ │    🔑 Senha temporária: [gerada automaticamente]              │  │
+│ │                                                                │  │
+│ │    👉 [ACESSAR PAINEL AGORA]                                   │  │
+│ │                                                                │  │
+│ │ 📅 AGENDA:                                                     │  │
+│ │ • Reunião de kickoff: Aguardando agendamento                  │  │
+│ │   (entraremos em contato em até 48h)                          │  │
+│ │                                                                │  │
+│ │ 📞 PRECISA DE AJUDA?                                           │  │
+│ │ • WhatsApp: (63) 98438-1782                                    │  │
+│ │ • E-mail: suporte@sajodiagnos.club                            │  │
+│ │ • Central de ajuda: ajuda.sajodiagnos.club                    │  │
+│ │                                                                │  │
+│ │ Estamos ansiosos para iniciar sua jornada de conformidade!    │  │
+│ │                                                                │  │
+│ │ Atenciosamente,                                                │  │
+│ │ Equipe 4 Pilares LGPD                                         │  │
+│ │                                                                │  │
+│ │ --                                                             │  │
+│ │ 4 PILARES LGPD                                                │  │
+│ │ Lei • Regras • Conformidade • Titular                         │  │
+│ │ www.sajodiagnos.club                                          │  │
+│ │ CNPJ: 58.551.044/0001-90                                      │  │
+│ └───────────────────────────────────────────────────────────────┘  │
+│                                                                      │
+│ AÇÃO 2: E-MAIL LEMBRETE (automático após 3 dias SEM preencher)     │
+│                                                                      │
+│ ┌───────────────────────────────────────────────────────────────┐  │
+│ │ Assunto: ⚠️ Ação Necessária: Formulário de Qualificação       │  │
+│ │                                                                │  │
+│ │ Olá, [Nome]!                                                   │  │
+│ │                                                                │  │
+│ │ Notamos que você ainda não preencheu o Formulário de          │  │
+│ │ Qualificação obrigatório.                                      │  │
+│ │                                                                │  │
+│ │ Você tem até [data - 7 dias] para concluir.                   │  │
+│ │                                                                │  │
+│ │ [PREENCHER AGORA]                                              │  │
+│ └───────────────────────────────────────────────────────────────┘  │
+│                                                                      │
+│ AÇÃO 3: E-MAIL URGENTE (automático após 6 dias SEM preencher)      │
+│                                                                      │
+│ ┌───────────────────────────────────────────────────────────────┐  │
+│ │ Assunto: 🚨 URGENTE: Último dia para Formulário               │  │
+│ │                                                                │  │
+│ │ Este é o último lembrete. Prazo termina amanhã!                │  │
+│ │                                                                │  │
+│ │ Sem o formulário, não poderemos iniciar os serviços.           │  │
+│ └───────────────────────────────────────────────────────────────┘  │
+└─────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────┐
+│ ETAPA 5: FORMULÁRIO DE QUALIFICAÇÃO (CRÍTICO)                      │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                      │
+│ URL: formulario.sajodiagnos.club/qualificacao/[token_unico]         │
+│                                                                      │
+│ [ESPECIFICAÇÃO COMPLETA DO FORMULÁRIO NA PRÓXIMA SEÇÃO]             │
+└─────────────────────────────────────────────────────────────────────┘
+═══════════════════════════════════════════════════════════════════════
+FORMULÁRIO DE QUALIFICAÇÃO
+AGENTE DE TRATAMENTO DE PEQUENO PORTE
+(Art. 2º da Resolução CD/ANPD nº 2, de 27 de janeiro de 2022)
+═══════════════════════════════════════════════════════════════════════
+
+URL: formulario.sajodiagnos.club/qualificacao/[token]
+
+EMPRESA: [Nome da empresa]
+CNPJ: [CNPJ]
+CONTRATO Nº: [número]
+PRAZO PARA PREENCHIMENTO: 7 dias corridos a partir da contratação
+
+⚠️ IMPORTANTE: Este formulário é OBRIGATÓRIO e deve ser preenchido com
+informações VERDADEIRAS. Dados falsos podem resultar em rescisão 
+contratual sem devolução de valores pagos.
+
+┌─────────────────────────────────────────────────────────────────────┐
+│ SEÇÃO 1: IDENTIFICAÇÃO E QUALIFICAÇÃO                               │
+└─────────────────────────────────────────────────────────────────────┘
+
+1.1. DADOS CADASTRAIS (pré-preenchidos)
+─────────────────────────────────────────────────────────────────────
+Razão Social: [pré-preenchido]
+CNPJ: [pré-preenchido]
+Inscrição Estadual: [pré-preenchido]
+Endereço: [pré-preenchido]
+Responsável Legal: [pré-preenchido]
+CPF Responsável: [pré-preenchido]
+
+[✓] Confirmo que os dados acima estão corretos
+[  ] Preciso atualizar dados cadastrais
+
+
+1.2. ENQUADRAMENTO LEGAL
+─────────────────────────────────────────────────────────────────────
+Qual o tipo jurídico da sua empresa?
+
+[  ] Microempresa (ME)
+[  ] Empresa de Pequeno Porte (EPP)
+[  ] Microempreendedor Individual (MEI)
+[  ] Sociedade Limitada (LTDA)
+[  ] Sociedade Anônima (S.A.)
+[  ] Empresário Individual
+[  ] Cooperativa
+[  ] Associação/Fundação
+[  ] Outro: __________________
+
+
+1.3. REGIME TRIBUTÁRIO
+─────────────────────────────────────────────────────────────────────
+Qual o regime tributário da empresa?
+
+[  ] Simples Nacional
+[  ] Lucro Presumido
+[  ] Lucro Real
+[  ] MEI
+[  ] Imune/Isento
+[  ] Outro: __________________
+
+
+┌─────────────────────────────────────────────────────────────────────┐
+│ SEÇÃO 2: CRITÉRIO DE RECEITA BRUTA                                 │
+│ (Art. 2º, I da Resolução CD/ANPD nº 2/2022)                        │
+└─────────────────────────────────────────────────────────────────────┘
+
+2.1. FATURAMENTO ANUAL
+─────────────────────────────────────────────────────────────────────
+Qual foi a receita bruta total da sua empresa no último ano-calendário
+completo (ou nos últimos 12 meses)?
+
+Receita bruta anual: R$ [____________]
+
+⚠️ Considere apenas faturamento no Brasil
+⚠️ Exclua vendas canceladas e descontos incondicionais
+
+
+2.2. ENQUADRAMENTO NO CRITÉRIO DE RECEITA
+─────────────────────────────────────────────────────────────────────
+📊 ANÁLISE AUTOMÁTICA:
+
+Receita informada: R$ [valor]
+Limite Resolução ANPD nº 2/2022: R$ 78.000.000,00
+
+[✅] SUA EMPRESA ATENDE o critério de receita
+[❌] SUA EMPRESA NÃO ATENDE o critério de receita
+
+─────────────────────────────────────────────────────────────────────
+
+2.3. COMPROVAÇÃO (UPLOAD OBRIGATÓRIO)
+─────────────────────────────────────────────────────────────────────
+Faça upload de UM dos seguintes documentos:
+
+[  ] Declaração Anual do Simples Nacional (DASN-SIMEI)
+[  ] Declaração de Informações Socioeconômicas e Fiscais (DEFIS)
+[  ] Escrituração Contábil Fiscal (ECF)
+[  ] Balanço Patrimonial + DRE (Demonstração do Resultado)
+[  ] Declaração do contador (modelo fornecido)
+
+📎 [FAZER UPLOAD DO ARQUIVO] (PDF, máx 10MB)
+
+Arquivo enviado: [nome_arquivo.pdf] ✓
+
+
+┌─────────────────────────────────────────────────────────────────────┐
+│ SEÇÃO 3: CRITÉRIO DE TITULARES DE DADOS                            │
+│ (Art. 2º, II da Resolução CD/ANPD nº 2/2022)                       │
+└─────────────────────────────────────────────────────────────────────┘
+
+3.1. VOLUME DE DADOS PESSOAIS TRATADOS
+─────────────────────────────────────────────────────────────────────
+Quantas pessoas (titulares de dados) tiveram seus dados pessoais
+tratados pela sua empresa no último ano-calendário completo?
+
+⚠️ EXCLUA da contagem:
+- Dados para contato (telefone, e-mail de trabalho, endereço comercial)
+  de pessoas jurídicas
+
+⚠️ INCLUA na contagem:
+- Clientes (pessoas físicas)
+- Colaboradores (funcionários, estagiários, terceiros)
+- Fornecedores (pessoas físicas)
+- Leads/prospects
+- Visitantes do site (cookies identificadores)
+- Usuários de sistemas
+- Pacientes, alunos, beneficiários (conforme setor)
+
+
+3.2. CATEGORIAS DE TITULARES
+─────────────────────────────────────────────────────────────────────
+
+CLIENTES (Pessoas Físicas):
+Quantidade aproximada: [______] titulares/ano
+
+COLABORADORES (RH):
+Funcionários CLT: [______]
+Estagiários: [______]
+Terceirizados/PJ: [______]
+Ex-funcionários (cadastro ativo): [______]
+
+FORNECEDORES/PARCEIROS (Pessoas Físicas):
+Quantidade aproximada: [______] titulares/ano
+
+LEADS/PROSPECTS (Marketing):
+Base ativa: [______] contatos
+
+USUÁRIOS DIGITAIS (Website/App):
+Usuários cadastrados: [______]
+Visitantes únicos/mês (média): [______]
+
+OUTROS:
+Descrição: __________________
+Quantidade: [______]
+
+─────────────────────────────────────────────────────────────────────
+TOTAL ESTIMADO DE TITULARES: [______ (cálculo automático)]
+─────────────────────────────────────────────────────────────────────
+
+
+3.3. ENQUADRAMENTO NO CRITÉRIO DE VOLUME
+─────────────────────────────────────────────────────────────────────
+📊 ANÁLISE AUTOMÁTICA:
+
+Total de titulares: [valor calculado]
+Limite Resolução ANPD nº 2/2022: 50.000 titulares/ano
+
+[✅] SUA EMPRESA ATENDE o critério de volume de dados
+[❌] SUA EMPRESA NÃO ATENDE o critério de volume de dados
+
+
+┌─────────────────────────────────────────────────────────────────────┐
+│ SEÇÃO 4: CRITÉRIO DE DADOS SENSÍVEIS                               │
+│ (Art. 2º, III da Resolução CD/ANPD nº 2/2022)                      │
+└─────────────────────────────────────────────────────────────────────┘
+
+4.1. TRATAMENTO DE DADOS SENSÍVEIS
+─────────────────────────────────────────────────────────────────────
+Sua empresa trata algum dos seguintes DADOS SENSÍVEIS definidos no
+Art. 5º, II da Lei 13.709/2018 (LGPD)?
+
+
+[  ] SIM tratamos dados sensíveiS #SÓ  MOSTRAR SE CLICAR SIM-> 
+
+"[  ] Origem racial ou étnica; 
+[  ] Convicção religiosa; 
+[  ] Opinião polític; 
+[  ] Filiação a sindicato ou organização de caráter religioso,filosófico ou político
+[  ] Dado referente à saúde
+[  ] Dado referente à vida sexual
+[  ] Dado genético
+[  ] Dado biométrico (impressão digital, reconhecimento facial, etc.)
+[  ] Dados de crianças e adolescentes (menores de 18 anos)"
+
+[  ] NÃO tratamos dados sensíveis
+
+
+4.2. ESCALA DE TRATAMENTO DE DADOS SENSÍVEIS
+─────────────────────────────────────────────────────────────────────
+⚠️ ATENÇÃO: Esta pergunta é CRÍTICA para qualificação
+
+Caso tenha marcado alguma opção acima, qual a ESCALA do tratamento?
+
+[  ] NÃO APLICÁVEL (não tratamos dados sensíveis)
+
+[  ] ESCALA REDUZIDA
+    • Dados sensíveis tratados apenas para cumprimento de obrigação
+      legal/regulatória (ex: folha de pagamento, ASO, controle de ponto)
+    • Volume menor que 5% da base total de titulares
+    • Sem uso secundário (não compartilhados, não para analytics, etc.)
+
+[  ] LARGA ESCALA
+    • Tratamento de dados sensíveis é atividade principal/core business
+    • Volume representativo (mais de 5% da base)
+    • Uso secundário (compartilhamento, análises, perfilamento)
+
+⚠️ EXEMPLOS DE LARGA ESCALA:
+- Clínicas/hospitais tratando dados de saúde de pacientes
+- Igrejas/templos tratando crenças religiosas de fiéis
+- Partidos políticos tratando filiações e opiniões políticas
+- Empresas de biometria tratando dados biométricos para acesso
+- Plataformas educacionais com dados de menores
+- Sistemas de reconhecimento facial em larga escala
+
+
+4.3. ENQUADRAMENTO NO CRITÉRIO DE DADOS SENSÍVEIS
+─────────────────────────────────────────────────────────────────────
+📊 ANÁLISE AUTOMÁTICA:
+
+[✅] SUA EMPRESA ATENDE (não trata dados sensíveis em larga escala)
+[❌] SUA EMPRESA NÃO ATENDE (trata dados sensíveis em larga escala)
+
+
+┌─────────────────────────────────────────────────────────────────────┐
+│ SEÇÃO 5: RESULTADO DA QUALIFICAÇÃO                                 │
+└─────────────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════
+RESULTADO FINAL
+═══════════════════════════════════════════════════════════════════════
+
+Para ser qualificado como AGENTE DE TRATAMENTO DE PEQUENO PORTE, sua
+empresa precisa atender SIMULTANEAMENTE aos 3 critérios:
+
+┌───────────────────────────────────────────────────────────────────┐
+│ CRITÉRIO 1: Receita Bruta                                        │
+│ Até R$ 78 milhões/ano                                            │
+│ Sua empresa: [✅ ATENDE / ❌ NÃO ATENDE]                         │
+└───────────────────────────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────┐
+│ CRITÉRIO 2: Volume de Titulares                                  │
+│ Até 50.000 titulares/ano (exceto contatos B2B)                   │
+│ Sua empresa: [✅ ATENDE / ❌ NÃO ATENDE]                         │
+└───────────────────────────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────┐
+│ CRITÉRIO 3: Dados Sensíveis                                      │
+│ NÃO trata dados sensíveis em larga escala                        │
+│ Sua empresa: [✅ ATENDE / ❌ NÃO ATENDE]                         │
+└───────────────────────────────────────────────────────────────────┘
+
+─────────────────────────────────────────────────────────────────────
+
+🎯 RESULTADO FINAL:
+
+[OPÇÃO A - APROVADO]
+┌───────────────────────────────────────────────────────────────────┐
+│ ✅ PARABÉNS! SUA EMPRESA É AGENTE DE PEQUENO PORTE                │
+│                                                                   │
+│ Você se qualifica para a PROMOÇÃO de R$ 150/mês por 12 meses.   │
+│                                                                   │
+│ Seu plano está CONFIRMADO e podemos iniciar os serviços:        │
+│ • Plano Básico ANPD (conforme Resolução nº 2/2022)              │
+│ • DPO Certificado                                                 │
+│ • Documentação essencial (Política, RIPD, ROPA)                  │
+│ • Canal de atendimento a titulares                               │
+│ • Suporte contínuo                                                │
+│                                                                   │
+│ PRÓXIMOS PASSOS:                                                 │
+│ 1. Acesse seu painel: painel.sajodiagnos.club                    │
+│ 2. Envie a procuração assinada                                   │
+│ 3. Aguarde contato para reunião de kickoff (48h)                │
+│                                                                   │
+│ [CONFIRMAR E FINALIZAR]                                          │
+└───────────────────────────────────────────────────────────────────┘
+
+[OPÇÃO B - REPROVADO]
+┌───────────────────────────────────────────────────────────────────┐
+│ ⚠️ SUA EMPRESA NÃO SE QUALIFICA COMO AGENTE DE PEQUENO PORTE     │
+│                                                                   │
+│ Motivo(s):                                                        │
+│ [X] Receita bruta superior a R$ 78 milhões                       │
+│ [X] Mais de 50.000 titulares de dados                            │
+│ [X] Trata dados sensíveis em larga escala                        │
+│                                                                   │
+│ ❗ ATENÇÃO: Você NÃO tem direito à promoção de R$ 150/mês.       │
+│                                                                   │
+│ ESCOLHA UMA DAS OPÇÕES ABAIXO:                                   │
+│                                                                   │
+│ OPÇÃO 1: MIGRAR PARA PLANO REGULAR                               │
+│ • Valor: R$ 300/mês (sem desconto)                               │
+│ • Fidelidade: 24 meses                                            │
+│ • Serviços completos (não só obrigações básicas ANPD)            │
+│ • [ACEITAR MIGRAÇÃO]                                             │
+│                                                                   │
+│ OPÇÃO 2: CANCELAR CONTRATO                                       │
+│ • Aviso prévio: 30 dias corridos                                 │
+│ • Multa rescisória aplicável conforme cláusula 5.1.2             │
+│ • Última mensalidade: R$ 150 (mês corrente)                      │
+│ • Multa: R$ [valor calculado]                                    │
+│ • [SOLICITAR CANCELAMENTO]                                       │
+│                                                                   │
+│ PRECISA DE AJUDA PARA DECIDIR?                                   │
+│ Fale com nosso time: (63) 98438-1782                             │
+└───────────────────────────────────────────────────────────────────┘
+
+
+┌─────────────────────────────────────────────────────────────────────┐
+│ SEÇÃO 6: DECLARAÇÃO E ACEITE FINAL                                 │
+└─────────────────────────────────────────────────────────────────────┘
+
+[✓] DECLARO, sob as penas da lei, que todas as informações fornecidas
+    neste formulário são VERDADEIRAS e COMPLETAS.
+
+[✓] ESTOU CIENTE de que a prestação de informações falsas ou 
+    incompletas pode resultar em:
+    • Rescisão imediata do contrato sem devolução de valores
+    • Cobrança retroativa de diferenças de mensalidade
+    • Responsabilização civil e criminal
+
+[✓] AUTORIZO a 4 Pilares LGPD a solicitar documentos adicionais para
+    comprovação das informações prestadas.
+
+[✓] COMPROMETO-ME a comunicar imediatamente qualquer alteração que
+    possa desqualificar a empresa como Agente de Pequeno Porte
+    (aumento de receita, volume de dados ou início de tratamento de
+    dados sensíveis em larga escala).
+
+
+Data: [preenchimento automático]
+IP: [registro automático]
+Assinatura digital: [Nome do Responsável Legal]
+
+
+[ENVIAR FORMULÁRIO]
+
+
+═══════════════════════════════════════════════════════════════════════
+
+═══════════════════════════════════════════════════════════════════════
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE CONSULTORIA EM PROTEÇÃO DE DADOS
+LGPD, MARCO CIVIL DA INTERNET E ESTATUTO DIGITAL
+(MODALIDADE: PROMOÇÃO AGENTE DE PEQUENO PORTE)
+═══════════════════════════════════════════════════════════════════════
+
+CONTRATANTE:
+Nome/Razão Social: _________________________________________________
+CNPJ/CPF: _________________________________________________________
+Endereço: _________________________________________________________
+CEP: _________________ Cidade: __________________ UF: ___________
+E-mail: ___________________________________________________________
+Telefone: _________________________________________________________
+Representante Legal: _______________________________________________
+CPF Representante: _________________________________________________
+
+CONTRATADA:
+Razão Social: 4 PILARES LGPD "LEI-REGRAS-CONFORMIDADE-TITULAR DOS DADOS"
+CNPJ: 58.551.044/0001-90
+Endereço: [endereço completo da empresa]
+CEP: _____________ Palmas/TO
+E-mail: contato@sajodiagnos.club
+Telefone: (63) 98438-1782
+Representante: Dr. João Pedro Pereira Passos
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA PRIMEIRA — DO OBJETO
+═══════════════════════════════════════════════════════════════════════
+
+1.1. O presente contrato tem por objeto a prestação de serviços de 
+consultoria em proteção de dados pessoais, adequação à Lei Geral de 
+Proteção de Dados (Lei 13.709/2018), Marco Civil da Internet (Lei 
+12.965/2014) e Estatuto Digital da Criança e do Adolescente (Lei 
+15.211/2025), através da metodologia "4 PILARES" (Lei, Regras, 
+Conformidade e Titular).
+
+1.2. MODALIDADE CONTRATADA:
+[X] PROMOÇÃO LANÇAMENTO - Agente de Tratamento de Pequeno Porte
+    (Desconto de 50% nos primeiros 12 meses)
+    
+1.3. PLANO CONTRATADO:
+[X] PLANO BÁSICO ANPD (Agente de Pequeno Porte)
+    Conforme obrigações previstas na Resolução CD/ANPD nº 2/2022
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA SEGUNDA — DOS SERVIÇOS INCLUSOS
+═══════════════════════════════════════════════════════════════════════
+
+2.1. A CONTRATADA prestará os seguintes serviços conforme a Resolução
+CD/ANPD nº 2, de 27 de janeiro de 2022, que estabelece normas sobre o
+Agente de Tratamento de Pequeno Porte:
+
+**PILAR 1 - LEI (Base Legal):**
+a) Análise de aplicabilidade das leis LGPD, MCI e Estatuto Digital
+b) Identificação de bases legais para tratamento de dados
+c) Orientação sobre obrigações simplificadas (Art. 3º Res. ANPD 2/2022)
+
+**PILAR 2 - REGRAS (Governança Simplificada):**
+a) Elaboração de Política de Privacidade simplificada
+b) Termos de Uso básicos
+c) RIPD (Relatório de Impacto à Proteção de Dados) - quando necessário
+d) ROPA (Registro de Operações de Tratamento) simplificado
+e) Procedimentos básicos de segurança
+
+**PILAR 3 - CONFORMIDADE (Certificação):**
+a) DPO (Data Protection Officer) certificado e registrado ANPD
+b) Atendimento às obrigações junto à ANPD conforme Art. 4º Res. 2/2022:
+   • Manutenção de registro das operações de tratamento
+   • Elaboração de relatório de impacto quando houver alto risco
+   • Implementação de programa de governança em privacidade (simplificado)
+c) Orientação sobre medidas de segurança proporcionais ao porte
+d) Treinamento básico (4 horas/ano)
+
+**PILAR 4 - TITULAR (Direitos):**
+a) Canal de atendimento a titulares de dados (Art. 5º Res. ANPD 2/2022)
+b) Gestão de requisições de titulares (acesso, correção, exclusão, etc.)
+c) Política de Privacidade acessível e clara
+d) Procedimentos de resposta a incidentes
+
+2.2. SERVIÇOS NÃO INCLUSOS NO PLANO BÁSICO:
+Os seguintes serviços PODEM ser contratados à parte:
+- Auditorias completas de conformidade
+- Treinamentos avançados ou customizados
+- Documentação adicional (LIA, DIA, DPA customizados)
+- Defesa em processos administrativos ANPD
+- Due diligence para M&A
+- Adequação a normas setoriais específicas
+
+2.3. ACESSO AO PAINEL DE CONTROLE:
+A CONTRATANTE terá acesso a painel de controle web (painel.sajodiagnos.club) 
+para acompanhamento em tempo real dos serviços prestados.
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA TERCEIRA — DO VALOR E FORMA DE PAGAMENTO
+═══════════════════════════════════════════════════════════════════════
+
+3.1. MODALIDADE PROMOÇÃO LANÇAMENTO (50% DESCONTO):
+
+**PRIMEIROS 12 MESES (Período Promocional):**
+Valor mensal: R$ 150,00 (cento e cinquenta reais)
+Valor total primeiros 12 meses: R$ 1.800,00
+(cinquenta por cento de desconto sobre o valor regular de R$ 300,00)
+
+**PRÓXIMOS 12 MESES (Segundo ano - valor normal):**
+Valor mensal: R$ 300,00 (trezentos reais)
+Valor total segundo ano: R$ 3.600,00
+
+**VALOR TOTAL DO CONTRATO (24 meses):**
+R$ 5.400,00 (cinco mil e quatrocentos reais)
+
+3.2. ELEGIBILIDADE PARA A PROMOÇÃO:
+A presente promoção contempla EXCLUSIVAMENTE Agentes de Tratamento de
+Pequeno Porte conforme definidos no Art. 2º da Resolução CD/ANPD nº 2,
+de 27 de janeiro de 2022, sendo o Plano Básico a execução das obrigações
+previstas na referida norma junto à ANPD e aos titulares de dados.
+
+3.3. CONDIÇÕES DE ELEGIBILIDADE:
+Para manutenção da promoção, a CONTRATANTE deve atender SIMULTANEAMENTE
+aos seguintes critérios durante toda a vigência contratual:
+
+a) Receita bruta anual de até R$ 78.000.000,00 (setenta e oito milhões
+   de reais) no Brasil, nos termos da Lei Complementar 123/2006;
+
+b) Realização de operações de tratamento de dados pessoais de até
+   50.000 (cinquenta mil) titulares no último ano-calendário, excluídos
+   os dados cujo acesso seja necessário para estabelecer comunicação
+   com pessoas de direito privado para fins de exercício de atividades
+   econômicas;
+
+c) NÃO realizar tratamento de dados pessoais sensíveis ou de dados
+   pessoais de crianças e adolescentes em larga escala.
+
+3.4. VERIFICAÇÃO DE ELEGIBILIDADE:
+A CONTRATANTE se compromete a preencher, em até 7 (sete) dias corridos
+após a contratação, o Formulário de Qualificação disponibilizado pela
+CONTRATADA, fornecendo informações verdadeiras e comprobatórias sobre
+seu enquadramento como Agente de Pequeno Porte.
+
+3.5. DESQUALIFICAÇÃO COMO AGENTE DE PEQUENO PORTE:
+Caso o Formulário de Qualificação ou posterior verificação demonstre
+que a CONTRATANTE NÃO se enquadra como Agente de Pequeno Porte, esta
+terá as seguintes opções:
+
+**OPÇÃO A - MIGRAÇÃO PARA PLANO REGULAR:**
+- Valor mensal: R$ 300,00 (sem desconto)
+- Fidelidade: 24 meses a partir da migração
+- Serviços ampliados (além das obrigações básicas ANPD)
+- Cobrança retroativa da diferença (R$ 150,00/mês) referente aos
+  meses já decorridos com desconto indevido
+
+**OPÇÃO B - CANCELAMENTO DO CONTRATO:**
+- Aviso prévio de 30 (trinta) dias corridos
+- Multa rescisória conforme Cláusula Quinta
+- Sem cobrança retroativa (goodwill)
+
+3.6. OBRIGAÇÃO DE COMUNICAÇÃO:
+A CONTRATANTE se compromete a comunicar imediatamente à CONTRATADA
+qualquer alteração em seu porte, faturamento, volume de dados ou
+natureza das operações de tratamento que possa desqualificá-la como
+Agente de Pequeno Porte, sob pena de rescisão por justa causa com
+cobrança de multas e diferenças.
+
+3.7. FORMA DE PAGAMENTO:
+[  ] Boleto bancário (vencimento todo dia ___)
+[  ] Cartão de crédito (recorrência automática)
+[  ] Transferência/PIX
+
+3.8. O pagamento deverá ser efetuado até o dia 05 (cinco) de cada mês, 
+sob pena de aplicação de multa moratória de 2% (dois por cento) sobre 
+o valor em atraso, juros de 1% (um por cento) ao mês e correção 
+monetária pelo IPCA.
+
+3.9. O atraso superior a 30 (trinta) dias no pagamento de qualquer 
+parcela ensejará a suspensão dos serviços, sem prejuízo da cobrança 
+integral do contrato e multas contratuais.
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA QUARTA — DO PRAZO E VIGÊNCIA
+═══════════════════════════════════════════════════════════════════════
+
+4.1. O presente contrato terá vigência de 24 (vinte e quatro) meses, 
+contados da data de sua assinatura, com início em ___/___/______ e 
+término em ___/___/______.
+
+4.2. O contrato será automaticamente renovado por períodos sucessivos 
+de 12 (doze) meses, salvo manifestação contrária de qualquer das 
+partes com antecedência mínima de 60 (sessenta) dias do término da 
+vigência.
+
+4.3. PERÍODO DE FIDELIDADE MÍNIMA:
+Modalidade Promoção Lançamento: 24 (vinte e quatro) meses
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA QUINTA — DA RESCISÃO E MULTAS CONTRATUAIS
+═══════════════════════════════════════════════════════════════════════
+
+5.1. RESCISÃO POR INICIATIVA DA CONTRATANTE:
+
+**5.1.1. MODALIDADE PROMOÇÃO LANÇAMENTO:**
+
+**A) RESCISÃO NOS PRIMEIROS 12 MESES (Período Promocional):**
+
+Em caso de rescisão durante os primeiros 12 (doze) meses contratuais, 
+a CONTRATANTE pagará multa rescisória correspondente a:
+
+- 100% (cem por cento) das parcelas vincendas até completar 12 meses
+  MAIS
+- 50% (cinquenta por cento) das parcelas do segundo ano (meses 13-24)
+
+Fórmula de cálculo:
+Multa = [(12 - meses completos ano 1) × R$ 150,00 × 100%] + 
+        [12 × R$ 300,00 × 50%]
+
+Exemplo 1: Rescisão no 6º mês
+Multa = [(12-6) × R$ 150,00 × 100%] + [12 × R$ 300,00 × 50%]
+Multa = [6 × R$ 150,00] + [R$ 1.800,00]
+Multa = R$ 900,00 + R$ 1.800,00 = R$ 2.700,00
+
+Exemplo 2: Rescisão no 3º mês
+Multa = [(12-3) × R$ 150,00 × 100%] + [12 × R$ 300,00 × 50%]
+Multa = [9 × R$ 150,00] + [R$ 1.800,00]
+Multa = R$ 1.350,00 + R$ 1.800,00 = R$ 3.150,00
+
+Exemplo 3: Rescisão no 10º mês
+Multa = [(12-10) × R$ 150,00 × 100%] + [12 × R$ 300,00 × 50%]
+Multa = [2 × R$ 150,00] + [R$ 1.800,00]
+Multa = R$ 300,00 + R$ 1.800,00 = R$ 2.100,00
+
+**B) RESCISÃO ENTRE 13º E 24º MÊS (Segundo ano):**
+
+Em caso de rescisão durante o segundo ano contratual (meses 13 a 24), 
+a CONTRATANTE pagará multa rescisória correspondente a 50% (cinquenta 
+por cento) das parcelas vincendas até completar 24 meses.
+
+Fórmula de cálculo:
+Multa = (24 - meses completos) × R$ 300,00 × 50%
+
+Exemplo 1: Rescisão no 18º mês
+Multa = (24-18) × R$ 300,00 × 50%
+Multa = 6 × R$ 150,00 = R$ 900,00
+
+Exemplo 2: Rescisão no 15º mês
+Multa = (24-15) × R$ 300,00 × 50%
+Multa = 9 × R$ 150,00 = R$ 1.350,00
+
+5.2. RESCISÃO APÓS PERÍODO DE FIDELIDADE:
+Após cumprido o período de fidelidade (24 meses), qualquer das partes 
+poderá rescindir o contrato mediante comunicação prévia de 60 
+(sessenta) dias, sem incidência de multa rescisória.
+
+5.3. RESCISÃO POR DESQUALIFICAÇÃO COMO AGENTE DE PEQUENO PORTE:
+Se a CONTRATANTE optar por cancelar o contrato após ser desqualificada
+como Agente de Pequeno Porte, aplicam-se as multas da Cláusula 5.1,
+SEM cobrança retroativa de diferenças (conforme cláusula 3.5 - OPÇÃO B).
+
+5.4. RESCISÃO POR INICIATIVA DA CONTRATADA:
+A CONTRATADA poderá rescindir o contrato nas seguintes hipóteses, sem 
+ônus ou devolução de valores:
+
+a) Inadimplência superior a 30 (trinta) dias;
+b) Descumprimento de obrigações contratuais pela CONTRATANTE;
+c) Fornecimento de informações falsas ou incompletas no Formulário
+   de Qualificação;
+d) Uso indevido dos serviços ou do painel de controle;
+e) Conduta que possa comprometer a reputação da CONTRATADA;
+f) Recusa em fornecer documentos comprobatórios solicitados.
+
+5.5. GARANTIA DE 7 DIAS (Money-Back):
+A CONTRATANTE tem direito a cancelamento sem qualquer ônus nos 
+primeiros 7 (sete) dias corridos após a assinatura do contrato, com 
+devolução integral de valores eventualmente pagos, nos termos do
+Código de Defesa do Consumidor (Art. 49).
+
+5.6. Toda rescisão deverá ser formalizada por escrito (e-mail ou carta 
+registrada), sendo considerada a data de recebimento pela outra parte.
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA SEXTA — DAS OBRIGAÇÕES DA CONTRATADA
+═══════════════════════════════════════════════════════════════════════
+
+6.1. Prestar os serviços descritos na Cláusula Segunda com qualidade, 
+eficiência e dentro dos prazos acordados.
+
+6.2. Disponibilizar DPO (Data Protection Officer) certificado e 
+registrado perante a ANPD.
+
+6.3. Elaborar toda documentação técnica necessária conforme Resolução
+ANPD nº 2/2022 para Agentes de Pequeno Porte.
+
+6.4. Fornecer acesso ao painel de controle com login e senha 
+individuais.
+
+6.5. Prestar suporte técnico em horário comercial (segunda a sexta,
+8h às 18h, horário de Brasília).
+
+6.6. Manter sigilo absoluto sobre todas as informações da CONTRATANTE.
+
+6.7. NÃO acessar dados pessoais da CONTRATANTE, trabalhando apenas 
+com arquitetura de dados (fluxos, processos, documentação).
+
+6.8. Monitorar atualizações legislativas e regulatórias, comunicando 
+a CONTRATANTE sobre eventuais impactos.
+
+6.9. Analisar o Formulário de Qualificação em até 5 (cinco) dias úteis
+após o recebimento.
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA SÉTIMA — DAS OBRIGAÇÕES DA CONTRATANTE
+═══════════════════════════════════════════════════════════════════════
+
+7.1. Efetuar o pagamento das mensalidades nos prazos estipulados.
+
+7.2. Fornecer informações completas, precisas e atualizadas sobre seus 
+processos de tratamento de dados.
+
+7.3. Preencher o Formulário de Qualificação de Agente de Pequeno Porte
+em até 7 (sete) dias corridos após a contratação.
+
+7.4. Fornecer documentos comprobatórios de enquadramento quando
+solicitado pela CONTRATADA.
+
+7.5. Comunicar imediatamente qualquer alteração que possa desqualificá-la
+como Agente de Pequeno Porte.
+
+7.6. Designar interlocutor responsável para comunicação com a 
+CONTRATADA.
+
+7.7. Implementar as recomendações técnicas e jurídicas fornecidas pela 
+CONTRATADA.
+
+7.8. Participar dos treinamentos oferecidos.
+
+7.9. Comunicar imediatamente qualquer incidente de segurança envolvendo 
+dados pessoais.
+
+7.10. Manter confidencialidade sobre metodologias, documentos e materiais 
+fornecidos pela CONTRATADA.
+
+7.11. Fornecer Procuração (pública ou particular com firma reconhecida)
+para que a CONTRATADA possa atuar como DPO perante a ANPD e titulares.
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA OITAVA — DA PROCURAÇÃO E REPRESENTAÇÃO
+═══════════════════════════════════════════════════════════════════════
+
+8.1. Para exercício das funções de DPO (Data Protection Officer), a
+CONTRATANTE outorgará procuração à CONTRATADA, conforme minuta
+fornecida, com os seguintes poderes:
+
+a) Representar a CONTRATANTE perante a ANPD (Autoridade Nacional de
+   Proteção de Dados);
+b) Atender requisições de titulares de dados;
+c) Receber comunicações da ANPD;
+d) Prestar esclarecimentos e informações à ANPD;
+e) Adotar providências determinadas pela ANPD;
+f) Orientar funcionários sobre práticas de proteção de dados.
+
+8.2. A procuração poderá ser:
+a) PÚBLICA (lavrada em cartório), OU
+b) PARTICULAR com firma reconhecida, assinada via e-Gov (gov.br) ou
+   certificado digital ICP-Brasil
+
+8.3. A procuração deverá ser enviada digitalizada para
+docs@sajodiagnos.club em até 15 (quinze) dias corridos após a
+contratação.
+
+8.4. A ausência de procuração válida impedirá o início da prestação
+dos serviços, sem prejuízo da cobrança das mensalidades.
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA NONA — DA PROPRIEDADE INTELECTUAL
+═══════════════════════════════════════════════════════════════════════
+
+9.1. Todos os documentos, relatórios, políticas e materiais produzidos 
+pela CONTRATADA especificamente para a CONTRATANTE serão de propriedade 
+desta última.
+
+9.2. A metodologia "4 PILARES", frameworks, templates genéricos, 
+materiais de treinamento e o sistema/painel de controle permanecem de 
+propriedade exclusiva da CONTRATADA.
+
+9.3. É vedada a reprodução, distribuição ou comercialização de 
+materiais de propriedade da CONTRATADA sem autorização expressa.
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA DÉCIMA — DA CONFIDENCIALIDADE E SIGILO
+═══════════════════════════════════════════════════════════════════════
+
+10.1. As partes se comprometem a manter sigilo absoluto sobre todas as 
+informações confidenciais trocadas durante a vigência deste contrato.
+
+10.2. Consideram-se confidenciais: dados da empresa, processos internos, 
+documentação técnica, estratégias de negócio, dados pessoais tratados, 
+vulnerabilidades identificadas.
+
+10.3. A obrigação de confidencialidade permanece vigente por 5 (cinco) 
+anos após o término do contrato.
+
+10.4. A CONTRATADA NÃO terá acesso a dados pessoais tratados pela 
+CONTRATANTE, trabalhando exclusivamente com informações sobre a 
+arquitetura e fluxos de dados.
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA DÉCIMA PRIMEIRA — DAS PENALIDADES POR INFORMAÇÕES FALSAS
+═══════════════════════════════════════════════════════════════════════
+
+11.1. A prestação de informações FALSAS ou INCOMPLETAS no Formulário
+de Qualificação ou em qualquer documento fornecido à CONTRATADA
+ensejará:
+
+a) Rescisão imediata do contrato por justa causa, SEM devolução de
+   valores pagos;
+b) Cobrança integral das multas rescisórias previstas na Cláusula Quinta;
+c) Cobrança retroativa da diferença entre valor promocional e valor
+   regular de TODOS os meses decorridos;
+d) Responsabilização civil por eventuais danos causados à CONTRATADA;
+e) Responsabilização criminal, se aplicável.
+
+11.2. Considera-se informação falsa:
+- Subdeclaração de receita bruta
+- Subdeclaração de número de titulares
+- Omissão sobre tratamento de dados sensíveis em larga escala
+- Falsificação de documentos comprobatórios
+- Qualquer outra informação inverídica
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA DÉCIMA SEGUNDA — DAS DISPOSIÇÕES GERAIS
+═══════════════════════════════════════════════════════════════════════
+
+12.1. O presente contrato substitui e cancela quaisquer acordos, 
+propostas ou entendimentos anteriores entre as partes.
+
+12.2. Qualquer alteração contratual deve ser formalizada por escrito 
+e assinada por ambas as partes.
+
+12.3. A tolerância de uma parte quanto ao descumprimento de obrigações 
+pela outra não implica em renúncia de direitos.
+
+12.4. A invalidade de qualquer cláusula não afeta a validade das demais.
+
+12.5. O presente contrato é celebrado em caráter irrevogável e 
+irretratável, obrigando as partes e seus sucessores.
+
+═══════════════════════════════════════════════════════════════════════
+CLÁUSULA DÉCIMA TERCEIRA — DO FORO
+═══════════════════════════════════════════════════════════════════════
+
+13.1. Fica eleito o foro da Comarca de Palmas/TO para dirimir quaisquer 
+questões oriundas deste contrato, renunciando as partes a qualquer outro, 
+por mais privilegiado que seja.
+
+═══════════════════════════════════════════════════════════════════════
+
+E por estarem justos e contratados, assinam o presente instrumento em 
+02 (duas) vias de igual teor e forma, na presença de duas testemunhas.
+
+Local: _________________________, ____ de _____________ de 20___.
+
+
+_____________________________          _____________________________
+CONTRATANTE                            CONTRATADA
+Nome:                                  4 PILARES LGPD
+CPF/CNPJ:                              CNPJ: 58.551.044/0001-90
+                                       Dr. João Pedro Pereira Passos
+
+
+TESTEMUNHAS:
+
+_____________________________          _____________________________
+Nome:                                  Nome:
+CPF:                                   CPF:
+
+
+
