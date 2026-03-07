@@ -1,0 +1,31 @@
+{
+  "package_name": "JPLGPD_docs_package",
+  "purpose": "Pacote organizado de documentação e artefatos do site JPLGPD/4 Pilares LGPD para subir ao GitHub manualmente.",
+  "source_files_found": [
+    "JP.LGPD.txt",
+    "4pilares-painel.html",
+    "files.zip",
+    "PAINEL_DE_COTROLE.zip",
+    "README_PAINEL.zip",
+    "README_SITE.zip",
+    "SITE.zip"
+  ],
+  "folders": [
+    "docs/01-visao-geral",
+    "docs/02-site-html",
+    "docs/03-painel",
+    "docs/04-readmes-origem",
+    "docs/05-arquitetura-e-notas",
+    "docs/06-checkout-e-pagamento",
+    "docs/07-zips-origem"
+  ],
+  "recommended_repo_paths": {
+    "docs/01-visao-geral": "contexto geral, briefing, proposta, pricing, funil",
+    "docs/02-site-html": "artefatos do site e origem do front",
+    "docs/03-painel": "painel/arquitetura visual/admin",
+    "docs/04-readmes-origem": "README, todo, notas, arquitetura textual",
+    "docs/05-arquitetura-e-notas": "documentos síntese criados agora",
+    "docs/06-checkout-e-pagamento": "checkout, Mercado Pago, HTMLs relacionados",
+    "docs/07-zips-origem": "arquivos brutos preservados para auditoria"
+  }
+}
