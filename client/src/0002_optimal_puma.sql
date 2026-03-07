@@ -1,0 +1,1 @@
+ALTER TABLE `insurance_payments` ADD `stripeSessionId` varchar(255);

@@ -11,18 +11,16 @@ import Contact from "./pages/Contact";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 
-
 function Router() {
   return (
     <Switch>
-      <Route path={"/"} component={Home} />
-      <Route path={"/servicos"} component={Services} />
-      <Route path={"/sobre"} component={About} />
-      <Route path={"/contato"} component={Contact} />
-      <Route path={"/privacidade"} component={Privacy} />
-      <Route path={"/termos"} component={Terms} />
-      <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
+      <Route path="/" component={Home} />
+      <Route path="/servicos" component={Services} />
+      <Route path="/sobre" component={About} />
+      <Route path="/contato" component={Contact} />
+      <Route path="/privacidade" component={Privacy} />
+      <Route path="/termos" component={Terms} />
+      <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>
   );
@@ -31,9 +29,7 @@ function Router() {
 function App() {
   return (
     <ErrorBoundary>
-      <ThemeProvider
-        defaultTheme="light"
-      >
+      <ThemeProvider defaultTheme="light">
         <TooltipProvider>
           <Toaster />
           <Router />
