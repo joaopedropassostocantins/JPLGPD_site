@@ -1,14 +1,12 @@
-import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 
 /**
- * Home - Página inicial do site institucional LGPD & DPO
- * Design: Profissional, limpo, com foco em conversão
+ * Services - Página de serviços
+ * Design: Listagem clara de serviços com descrições
  */
-export default function Home() {
+export default function Services() {
   return (
     <div className="min-h-screen flex flex-col">
-      {/* Header/Navigation */}
       <header className="border-b border-border bg-background">
         <div className="container flex items-center justify-between py-4">
           <div className="text-xl font-bold">LGPD & DPO</div>
@@ -21,49 +19,71 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Main Content */}
       <main className="flex-1">
-        {/* Hero Section */}
         <section className="bg-background py-20">
-          <div className="container text-center">
-            <h1 className="text-4xl font-bold mb-4">Conformidade LGPD Simplificada</h1>
-            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Serviços de DPO (Data Protection Officer) como serviço. Documentação, auditoria e treinamentos para sua empresa.
-            </p>
-            <div className="flex gap-4 justify-center">
-              <Button asChild>
-                <Link href="/servicos">Conhecer Serviços</Link>
-              </Button>
-              <Button variant="outline" asChild>
-                <Link href="/contato">Solicitar Contato</Link>
-              </Button>
-            </div>
-          </div>
-        </section>
-
-        {/* Services Preview */}
-        <section className="bg-secondary/10 py-16">
           <div className="container">
-            <h2 className="text-2xl font-bold mb-12 text-center">Serviços Principais</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-background p-6 rounded-lg border border-border">
-                <h3 className="font-semibold mb-2">Documentação LGPD</h3>
-                <p className="text-sm text-muted-foreground">Políticas, termos e documentação completa de conformidade.</p>
+            <h1 className="text-4xl font-bold mb-4">Nossos Serviços</h1>
+            <p className="text-lg text-muted-foreground mb-12">
+              Soluções completas para conformidade LGPD e proteção de dados.
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="border border-border rounded-lg p-8">
+                <h2 className="text-2xl font-bold mb-4">Documentação LGPD</h2>
+                <p className="text-muted-foreground mb-4">
+                  Elaboração de políticas de privacidade, termos de uso, avisos de cookies e documentação de conformidade.
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li>✓ Política de Privacidade</li>
+                  <li>✓ Termos de Serviço</li>
+                  <li>✓ Aviso de Cookies</li>
+                  <li>✓ Registro de Atividades de Processamento</li>
+                </ul>
               </div>
-              <div className="bg-background p-6 rounded-lg border border-border">
-                <h3 className="font-semibold mb-2">Auditoria</h3>
-                <p className="text-sm text-muted-foreground">Avaliação de conformidade e identificação de gaps.</p>
+
+              <div className="border border-border rounded-lg p-8">
+                <h2 className="text-2xl font-bold mb-4">Auditoria de Conformidade</h2>
+                <p className="text-muted-foreground mb-4">
+                  Avaliação completa de seus processos e sistemas para identificar gaps de conformidade.
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li>✓ Diagnóstico de Conformidade</li>
+                  <li>✓ Identificação de Riscos</li>
+                  <li>✓ Plano de Remediação</li>
+                  <li>✓ Relatório Executivo</li>
+                </ul>
               </div>
-              <div className="bg-background p-6 rounded-lg border border-border">
-                <h3 className="font-semibold mb-2">Treinamentos</h3>
-                <p className="text-sm text-muted-foreground">Capacitação de equipes em proteção de dados.</p>
+
+              <div className="border border-border rounded-lg p-8">
+                <h2 className="text-2xl font-bold mb-4">Treinamentos</h2>
+                <p className="text-muted-foreground mb-4">
+                  Capacitação de equipes em proteção de dados e conformidade regulatória.
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li>✓ Treinamento LGPD Básico</li>
+                  <li>✓ Treinamento Avançado</li>
+                  <li>✓ Workshops Temáticos</li>
+                  <li>✓ Certificação</li>
+                </ul>
+              </div>
+
+              <div className="border border-border rounded-lg p-8">
+                <h2 className="text-2xl font-bold mb-4">DPO como Serviço</h2>
+                <p className="text-muted-foreground mb-4">
+                  Contratação de Data Protection Officer especializado para sua organização.
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li>✓ DPO Dedicado</li>
+                  <li>✓ Consultoria Contínua</li>
+                  <li>✓ Suporte Regulatório</li>
+                  <li>✓ Gestão de Incidentes</li>
+                </ul>
               </div>
             </div>
           </div>
         </section>
       </main>
 
-      {/* Footer */}
       <footer className="border-t border-border bg-background">
         <div className="container py-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
