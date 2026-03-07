@@ -1,14 +1,12 @@
-import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 
 /**
- * Home - Página inicial do site institucional LGPD & DPO
- * Design: Profissional, limpo, com foco em conversão
+ * About - Página sobre a empresa
+ * Design: Informações institucionais básicas
  */
-export default function Home() {
+export default function About() {
   return (
     <div className="min-h-screen flex flex-col">
-      {/* Header/Navigation */}
       <header className="border-b border-border bg-background">
         <div className="container flex items-center justify-between py-4">
           <div className="text-xl font-bold">LGPD & DPO</div>
@@ -21,49 +19,62 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Main Content */}
       <main className="flex-1">
-        {/* Hero Section */}
         <section className="bg-background py-20">
-          <div className="container text-center">
-            <h1 className="text-4xl font-bold mb-4">Conformidade LGPD Simplificada</h1>
-            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Serviços de DPO (Data Protection Officer) como serviço. Documentação, auditoria e treinamentos para sua empresa.
-            </p>
-            <div className="flex gap-4 justify-center">
-              <Button asChild>
-                <Link href="/servicos">Conhecer Serviços</Link>
-              </Button>
-              <Button variant="outline" asChild>
-                <Link href="/contato">Solicitar Contato</Link>
-              </Button>
-            </div>
-          </div>
-        </section>
+          <div className="container max-w-3xl">
+            <h1 className="text-4xl font-bold mb-8">Sobre Nós</h1>
+            
+            <div className="space-y-8">
+              <div>
+                <h2 className="text-2xl font-bold mb-4">Nossa Missão</h2>
+                <p className="text-muted-foreground">
+                  Simplificar a conformidade com a Lei Geral de Proteção de Dados (LGPD) para empresas de todos os tamanhos, 
+                  fornecendo serviços especializados de Data Protection Officer (DPO) e consultoria em proteção de dados.
+                </p>
+              </div>
 
-        {/* Services Preview */}
-        <section className="bg-secondary/10 py-16">
-          <div className="container">
-            <h2 className="text-2xl font-bold mb-12 text-center">Serviços Principais</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-background p-6 rounded-lg border border-border">
-                <h3 className="font-semibold mb-2">Documentação LGPD</h3>
-                <p className="text-sm text-muted-foreground">Políticas, termos e documentação completa de conformidade.</p>
+              <div>
+                <h2 className="text-2xl font-bold mb-4">Visão</h2>
+                <p className="text-muted-foreground">
+                  Ser a referência em conformidade LGPD no Brasil, ajudando organizações a proteger dados pessoais 
+                  e construir confiança com seus clientes.
+                </p>
               </div>
-              <div className="bg-background p-6 rounded-lg border border-border">
-                <h3 className="font-semibold mb-2">Auditoria</h3>
-                <p className="text-sm text-muted-foreground">Avaliação de conformidade e identificação de gaps.</p>
+
+              <div>
+                <h2 className="text-2xl font-bold mb-4">Valores</h2>
+                <ul className="space-y-3">
+                  <li className="flex gap-3">
+                    <span className="font-semibold">Excelência:</span>
+                    <span className="text-muted-foreground">Qualidade em tudo que fazemos</span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="font-semibold">Transparência:</span>
+                    <span className="text-muted-foreground">Comunicação clara e honesta</span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="font-semibold">Inovação:</span>
+                    <span className="text-muted-foreground">Soluções modernas e eficientes</span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="font-semibold">Confiabilidade:</span>
+                    <span className="text-muted-foreground">Parceiro de longo prazo</span>
+                  </li>
+                </ul>
               </div>
-              <div className="bg-background p-6 rounded-lg border border-border">
-                <h3 className="font-semibold mb-2">Treinamentos</h3>
-                <p className="text-sm text-muted-foreground">Capacitação de equipes em proteção de dados.</p>
+
+              <div>
+                <h2 className="text-2xl font-bold mb-4">Equipe</h2>
+                <p className="text-muted-foreground">
+                  Profissionais especializados em direito, tecnologia e conformidade regulatória, 
+                  com experiência em implementação de programas de proteção de dados.
+                </p>
               </div>
             </div>
           </div>
         </section>
       </main>
 
-      {/* Footer */}
       <footer className="border-t border-border bg-background">
         <div className="container py-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
