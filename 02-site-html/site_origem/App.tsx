@@ -23,6 +23,7 @@ function Router() {
       <Route path="/privacidade" component={Privacidade} />
       <Route path="/termos" component={Termos} />
       <Route path="/transparencia" component={Transparencia} />
+      <Route path="/servicos" component={Transparencia} />
       <Route path="/admin" component={Admin} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
