@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - claude/update-jplgpd-site-d5xxk
   workflow_dispatch:
 
 permissions:
@@ -39,9 +40,8 @@ jobs:
       - name: Build
         run: pnpm build
         env:
-          # Se o site ficar em username.github.io/JPLGPD_site, manter /JPLGPD_site/
-          # Se tiver dominio proprio (ex: 4pilaresconsultoria.com.br), trocar para /
-          VITE_BASE_URL: /JPLGPD_site/
+          # Dominio proprio (pilaresdasabedoria.club) usa /
+          VITE_BASE_URL: /
 
       - name: Copy index.html para 404.html (SPA routing)
         run: cp dist/public/index.html dist/public/404.html
