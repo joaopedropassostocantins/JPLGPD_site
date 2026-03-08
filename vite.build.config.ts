@@ -5,7 +5,7 @@ import path from "node:path";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/JPLGPD_site/",
+  base: process.env.VITE_BASE_URL ?? "/",
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client/src"),
