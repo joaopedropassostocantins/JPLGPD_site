@@ -1,134 +1,144 @@
-import { Link } from "wouter";
+import Layout from "@/components/Layout";
 
-/**
- * Terms - Página de termos de serviço
- * Design: Documento legal estruturado
- */
 export default function Terms() {
   return (
-    <div className="min-h-screen flex flex-col">
-      <header className="border-b border-border bg-background">
-        <div className="container flex items-center justify-between py-4">
-          <div className="text-xl font-bold">LGPD & DPO</div>
-          <nav className="flex gap-6">
-            <Link href="/" className="text-sm hover:text-primary transition">Home</Link>
-            <Link href="/servicos" className="text-sm hover:text-primary transition">Serviços</Link>
-            <Link href="/sobre" className="text-sm hover:text-primary transition">Sobre</Link>
-            <Link href="/contato" className="text-sm hover:text-primary transition">Contato</Link>
-          </nav>
+    <Layout>
+      <section className="py-16 md:py-24 bg-background">
+        <div className="container max-w-3xl">
+          <h1 className="text-4xl font-bold mb-2 text-foreground">Termos de Uso</h1>
+          <p className="text-sm text-muted-foreground mb-10">
+            Ultima atualizacao: {new Date().toLocaleDateString("pt-BR")} · 4 Pilares Consultoria
+            LTDA · CNPJ: 58.551.044/0001-90
+          </p>
+
+          <div className="space-y-10 text-sm leading-relaxed text-muted-foreground">
+            <div>
+              <h2 className="text-lg font-semibold text-foreground mb-3">
+                1. Aceitacao dos termos
+              </h2>
+              <p>
+                Ao acessar este site ou contratar os servicos da{" "}
+                <strong className="text-foreground">4 Pilares Consultoria LTDA</strong> (CNPJ
+                58.551.044/0001-90), voce concorda com estes Termos de Uso. Caso nao concorde com
+                qualquer clausula, nao utilize este site nem contrate nossos servicos.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-foreground mb-3">2. Objeto</h2>
+              <p>
+                A 4 Pilares Consultoria presta servicos de consultoria em privacidade e protecao de
+                dados pessoais, incluindo DPO as a Service, elaboracao de documentacao LGPD,
+                auditorias de conformidade e treinamentos de equipes. Os servicos sao de natureza
+                consultiva e nao substituem assessoria juridica especializada.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-foreground mb-3">
+                3. Natureza dos servicos
+              </h2>
+              <p className="mb-3">
+                Os servicos de consultoria visam apoiar a adequacao a LGPD (Lei 13.709/2018) e nao
+                constituem:
+              </p>
+              <ul className="list-disc list-inside space-y-1">
+                <li>Garantia de conformidade total ou imunidade a sancoes da ANPD</li>
+                <li>Assessoria juridica no sentido da Lei 8.906/1994 (Estatuto da OAB)</li>
+                <li>Representacao legal do contratante perante orgaos reguladores</li>
+              </ul>
+              <p className="mt-3">
+                A implementacao efetiva das recomendacoes depende da colaboracao ativa do contratante
+                e de sua equipe interna.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-foreground mb-3">4. Contratacao</h2>
+              <p>
+                A contratacao e formalizada por proposta comercial e contrato de prestacao de
+                servicos assinados pelas partes. O Plano Essencial tem vigencia de 24 meses, com
+                valores definidos no contrato. Modificacoes de escopo devem ser formalizadas por
+                aditivo contratual.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-foreground mb-3">
+                5. Direito de arrependimento
+              </h2>
+              <p>
+                Para contratos celebrados fora do estabelecimento comercial ou por meios eletronicos,
+                o contratante pode exercer o direito de arrependimento em ate 7 (sete) dias corridos
+                a partir da assinatura, conforme Art. 49 do Codigo de Defesa do Consumidor. Apos
+                esse prazo, aplicam-se as clausulas de rescisao previstas no contrato.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-foreground mb-3">
+                6. Propriedade intelectual
+              </h2>
+              <p>
+                Todo o conteudo deste site — textos, metodologias, modelos de documentos e materiais
+                de treinamento — e de titularidade da 4 Pilares Consultoria LTDA. A reproducao,
+                distribuicao ou uso comercial sem autorizacao previa e expressamente vedada. Os
+                documentos elaborados especificamente para o contratante sao de uso exclusivo deste,
+                vedado o compartilhamento com terceiros sem autorizacao.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-foreground mb-3">
+                7. Limitacao de responsabilidade
+              </h2>
+              <p>
+                A responsabilidade da 4 Pilares Consultoria e limitada ao valor dos servicos
+                efetivamente prestados no periodo de 12 meses anteriores ao evento danoso. Nao nos
+                responsabilizamos por decisoes tomadas pelo contratante com base nas orientacoes
+                recebidas, nem por sancoes impostas por autoridades reguladoras decorrentes de
+                descumprimento de recomendacoes fornecidas.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-foreground mb-3">
+                8. Uso do site e conduta
+              </h2>
+              <p className="mb-3">E vedado ao usuario:</p>
+              <ul className="list-disc list-inside space-y-1">
+                <li>Utilizar este site para fins ilegais ou que violem direitos de terceiros</li>
+                <li>Tentar acessar areas restritas sem autorizacao</li>
+                <li>Transmitir malware, virus ou codigo malicioso</li>
+                <li>Realizar engenharia reversa do sistema</li>
+              </ul>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-foreground mb-3">9. Lei aplicavel e foro</h2>
+              <p>
+                Estes termos sao regidos pela legislacao brasileira. Para resolucao de controversias,
+                as partes elegem o foro da comarca de Palmas/TO, com renuria expressa a qualquer
+                outro, por mais privilegiado que seja.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-foreground mb-3">10. Contato</h2>
+              <p>
+                Para questoes sobre estes termos, entre em contato pelo e-mail{" "}
+                <a
+                  href="mailto:contato@4pilaresconsultoria.com.br"
+                  className="text-primary hover:underline"
+                >
+                  contato@4pilaresconsultoria.com.br
+                </a>
+                .
+              </p>
+            </div>
+          </div>
         </div>
-      </header>
-
-      <main className="flex-1">
-        <section className="bg-background py-20">
-          <div className="container max-w-3xl prose prose-sm">
-            <h1 className="text-4xl font-bold mb-8">Termos de Serviço</h1>
-            
-            <div className="space-y-8 text-base">
-              <div>
-                <h2 className="text-2xl font-bold mb-4">1. Aceitação dos Termos</h2>
-                <p className="text-muted-foreground">
-                  Ao acessar e usar este site, você aceita estar vinculado por estes Termos de Serviço. 
-                  Se você não concorda com qualquer parte destes termos, não use este site.
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-2xl font-bold mb-4">2. Uso Licenciado</h2>
-                <p className="text-muted-foreground mb-3">É concedida a você uma licença limitada para:</p>
-                <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-                  <li>Acessar e usar este site para fins legítimos</li>
-                  <li>Não reproduzir, duplicar ou copiar conteúdo sem permissão</li>
-                  <li>Não usar para fins comerciais não autorizados</li>
-                </ul>
-              </div>
-
-              <div>
-                <h2 className="text-2xl font-bold mb-4">3. Isenção de Responsabilidade</h2>
-                <p className="text-muted-foreground">
-                  Este site é fornecido "como está". Não garantimos que o site será ininterrupto, 
-                  seguro ou livre de erros. Você usa por sua conta e risco.
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-2xl font-bold mb-4">4. Limitação de Responsabilidade</h2>
-                <p className="text-muted-foreground">
-                  Em nenhum caso a LGPD & DPO Solutions será responsável por danos indiretos, incidentais, 
-                  especiais ou consequentes resultantes do uso ou incapacidade de usar este site.
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-2xl font-bold mb-4">5. Modificações dos Termos</h2>
-                <p className="text-muted-foreground">
-                  Reservamos o direito de modificar estes termos a qualquer momento. 
-                  Seu uso continuado do site após modificações constitui aceitação dos novos termos.
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-2xl font-bold mb-4">6. Serviços Profissionais</h2>
-                <p className="text-muted-foreground mb-3">
-                  Os serviços oferecidos pela LGPD & DPO Solutions são de natureza consultiva. 
-                  Recomendamos que você consulte profissionais jurídicos qualificados para questões específicas.
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-2xl font-bold mb-4">7. Contato</h2>
-                <p className="text-muted-foreground">
-                  Para questões sobre estes termos, entre em contato conosco em <a href="mailto:contato@lgpd-dpo.com" className="text-primary hover:underline">contato@lgpd-dpo.com</a>
-                </p>
-              </div>
-
-              <div className="border-t border-border pt-8">
-                <p className="text-sm text-muted-foreground">
-                  Última atualização: {new Date().toLocaleDateString('pt-BR')}
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-
-      <footer className="border-t border-border bg-background">
-        <div className="container py-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
-            <div>
-              <h4 className="font-semibold mb-4">Produto</h4>
-              <ul className="space-y-2 text-sm">
-                <li><Link href="/servicos" className="text-muted-foreground hover:text-foreground">Serviços</Link></li>
-                <li><Link href="/sobre" className="text-muted-foreground hover:text-foreground">Sobre</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Empresa</h4>
-              <ul className="space-y-2 text-sm">
-                <li><Link href="/contato" className="text-muted-foreground hover:text-foreground">Contato</Link></li>
-                <li><a href="mailto:contato@lgpd-dpo.com" className="text-muted-foreground hover:text-foreground">Email</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Legal</h4>
-              <ul className="space-y-2 text-sm">
-                <li><Link href="/privacidade" className="text-muted-foreground hover:text-foreground">Privacidade</Link></li>
-                <li><Link href="/termos" className="text-muted-foreground hover:text-foreground">Termos</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Subdomínios</h4>
-              <ul className="space-y-2 text-sm">
-                <li><a href="https://app.lgpd-dpo.com" className="text-muted-foreground hover:text-foreground">App</a></li>
-                <li><a href="https://docs.lgpd-dpo.com" className="text-muted-foreground hover:text-foreground">Docs</a></li>
-              </ul>
-            </div>
-          </div>
-          <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; 2026 LGPD & DPO Solutions. Todos os direitos reservados.</p>
-          </div>
-        </div>
-      </footer>
-    </div>
+      </section>
+    </Layout>
   );
 }

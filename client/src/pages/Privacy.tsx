@@ -1,132 +1,175 @@
-import { Link } from "wouter";
+import Layout from "@/components/Layout";
 
-/**
- * Privacy - Página de política de privacidade
- * Design: Documento legal estruturado
- */
 export default function Privacy() {
   return (
-    <div className="min-h-screen flex flex-col">
-      <header className="border-b border-border bg-background">
-        <div className="container flex items-center justify-between py-4">
-          <div className="text-xl font-bold">LGPD & DPO</div>
-          <nav className="flex gap-6">
-            <Link href="/" className="text-sm hover:text-primary transition">Home</Link>
-            <Link href="/servicos" className="text-sm hover:text-primary transition">Serviços</Link>
-            <Link href="/sobre" className="text-sm hover:text-primary transition">Sobre</Link>
-            <Link href="/contato" className="text-sm hover:text-primary transition">Contato</Link>
-          </nav>
+    <Layout>
+      <section className="py-16 md:py-24 bg-background">
+        <div className="container max-w-3xl">
+          <h1 className="text-4xl font-bold mb-2 text-foreground">Politica de Privacidade</h1>
+          <p className="text-sm text-muted-foreground mb-10">
+            Ultima atualizacao: {new Date().toLocaleDateString("pt-BR")} · 4 Pilares Consultoria
+            LTDA · CNPJ: 58.551.044/0001-90
+          </p>
+
+          <div className="space-y-10 text-sm leading-relaxed text-muted-foreground">
+            <div>
+              <h2 className="text-lg font-semibold text-foreground mb-3">1. Identificacao</h2>
+              <p>
+                Controlador dos dados: <strong className="text-foreground">4 Pilares Consultoria LTDA</strong>, CNPJ 58.551.044/0001-90.
+                Encarregado de Dados (DPO): acessivel pelo e-mail{" "}
+                <a
+                  href="mailto:privacidade@4pilaresconsultoria.com.br"
+                  className="text-primary hover:underline"
+                >
+                  privacidade@4pilaresconsultoria.com.br
+                </a>
+                .
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-foreground mb-3">
+                2. Dados que coletamos
+              </h2>
+              <p className="mb-3">
+                Coletamos dados estritamente necessarios para a prestacao dos servicos contratados:
+              </p>
+              <ul className="list-disc list-inside space-y-1">
+                <li>Nome e dados de contato (e-mail, telefone, WhatsApp)</li>
+                <li>Razao social e CNPJ da empresa contratante</li>
+                <li>Dados fornecidos em formularios de diagnostico e contratacao</li>
+                <li>Dados de acesso ao site (logs, cookies tecnicos)</li>
+              </ul>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-foreground mb-3">
+                3. Finalidade e base legal
+              </h2>
+              <p className="mb-3">O tratamento e realizado com as seguintes finalidades e bases legais:</p>
+              <ul className="list-disc list-inside space-y-1">
+                <li>
+                  Execucao do contrato de consultoria e DPO as a Service (Art. 7, V, LGPD)
+                </li>
+                <li>
+                  Atendimento a obrigacoes legais e regulatorias (Art. 7, II, LGPD)
+                </li>
+                <li>
+                  Envio de comunicacoes de marketing mediante consentimento expresso (Art. 7, I,
+                  LGPD)
+                </li>
+                <li>
+                  Exercicio regular de direitos em processos administrativos ou judiciais (Art. 7,
+                  VI, LGPD)
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-foreground mb-3">
+                4. Compartilhamento de dados
+              </h2>
+              <p>
+                Nao vendemos ou cedemos dados pessoais a terceiros para fins proprios. Podemos
+                compartilhar dados com operadores tecnicos (ex.: plataformas de e-mail, hospedagem)
+                mediante contrato de processamento (DPA) adequado. Em caso de obrigacao legal,
+                dados podem ser compartilhados com autoridades competentes.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-foreground mb-3">5. Retencao de dados</h2>
+              <p>
+                Dados de clientes sao retidos pelo prazo contratual e pelo prazo legal aplicavel
+                (geralmente 5 anos apos o encerramento contratual). Dados de prospeccao sem
+                conversao sao excluidos em ate 12 meses. Logs de acesso ao site sao mantidos por
+                6 meses, conforme Marco Civil da Internet.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-foreground mb-3">
+                6. Seus direitos como titular
+              </h2>
+              <p className="mb-3">
+                Nos termos dos Arts. 17 a 22 da LGPD, voce tem direito a:
+              </p>
+              <ul className="list-disc list-inside space-y-1">
+                <li>Confirmar a existencia do tratamento e acessar seus dados</li>
+                <li>Corrigir dados incompletos, inexatos ou desatualizados</li>
+                <li>Solicitar a anonimizacao, bloqueio ou eliminacao de dados desnecessarios</li>
+                <li>Portabilidade dos dados a outro fornecedor</li>
+                <li>Revogar consentimento a qualquer momento</li>
+                <li>Obter informacoes sobre compartilhamento com terceiros</li>
+                <li>Peticionar a ANPD em caso de descumprimento</li>
+              </ul>
+              <p className="mt-3">
+                Solicitacoes devem ser enviadas para{" "}
+                <a
+                  href="mailto:privacidade@4pilaresconsultoria.com.br"
+                  className="text-primary hover:underline"
+                >
+                  privacidade@4pilaresconsultoria.com.br
+                </a>
+                . Responderemos em ate 15 dias uteis.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-foreground mb-3">7. Seguranca</h2>
+              <p>
+                Adotamos medidas tecnicas e organizacionais adequadas, incluindo criptografia em
+                transito (TLS/SSL), controles de acesso baseados em perfil, e politica interna de
+                seguranca da informacao. Em caso de incidente relevante, notificaremos a ANPD e os
+                titulares afetados no prazo legal.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-foreground mb-3">8. Cookies</h2>
+              <p>
+                Utilizamos apenas cookies tecnicos essenciais para o funcionamento do site. Nao
+                utilizamos cookies de rastreamento ou publicidade sem consentimento expresso. Voce
+                pode configurar seu navegador para bloquear cookies, mas isso pode afetar a
+                experiencia no site.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-foreground mb-3">
+                9. Alteracoes a esta politica
+              </h2>
+              <p>
+                Esta politica pode ser atualizada periodicamente. Alteracoes relevantes serao
+                comunicadas por e-mail aos titulares cadastrados com antecedencia minima de 30 dias.
+                A data da ultima atualizacao e exibida no topo deste documento.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-foreground mb-3">10. Contato</h2>
+              <p>
+                Para exercer seus direitos ou esclarecer duvidas sobre esta politica, entre em
+                contato com nosso Encarregado de Dados pelo e-mail{" "}
+                <a
+                  href="mailto:privacidade@4pilaresconsultoria.com.br"
+                  className="text-primary hover:underline"
+                >
+                  privacidade@4pilaresconsultoria.com.br
+                </a>{" "}
+                ou pelo e-mail geral{" "}
+                <a
+                  href="mailto:contato@4pilaresconsultoria.com.br"
+                  className="text-primary hover:underline"
+                >
+                  contato@4pilaresconsultoria.com.br
+                </a>
+                .
+              </p>
+            </div>
+          </div>
         </div>
-      </header>
-
-      <main className="flex-1">
-        <section className="bg-background py-20">
-          <div className="container max-w-3xl prose prose-sm">
-            <h1 className="text-4xl font-bold mb-8">Política de Privacidade</h1>
-            
-            <div className="space-y-8 text-base">
-              <div>
-                <h2 className="text-2xl font-bold mb-4">1. Introdução</h2>
-                <p className="text-muted-foreground">
-                  A LGPD & DPO Solutions ("nós", "nosso" ou "empresa") está comprometida com a proteção de seus dados pessoais. 
-                  Esta Política de Privacidade explica como coletamos, usamos, divulgamos e protegemos suas informações.
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-2xl font-bold mb-4">2. Informações que Coletamos</h2>
-                <p className="text-muted-foreground mb-3">Coletamos informações que você nos fornece diretamente, como:</p>
-                <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-                  <li>Nome e informações de contato</li>
-                  <li>Informações da empresa</li>
-                  <li>Dados de navegação e uso do site</li>
-                </ul>
-              </div>
-
-              <div>
-                <h2 className="text-2xl font-bold mb-4">3. Como Usamos Suas Informações</h2>
-                <p className="text-muted-foreground mb-3">Usamos as informações para:</p>
-                <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-                  <li>Fornecer nossos serviços</li>
-                  <li>Responder a suas solicitações</li>
-                  <li>Melhorar nosso site e serviços</li>
-                  <li>Enviar comunicações de marketing (com consentimento)</li>
-                </ul>
-              </div>
-
-              <div>
-                <h2 className="text-2xl font-bold mb-4">4. Proteção de Dados</h2>
-                <p className="text-muted-foreground">
-                  Implementamos medidas de segurança técnicas e organizacionais para proteger seus dados pessoais 
-                  contra acesso não autorizado, alteração, divulgação ou destruição.
-                </p>
-              </div>
-
-              <div>
-                <h2 className="text-2xl font-bold mb-4">5. Seus Direitos</h2>
-                <p className="text-muted-foreground mb-3">Você tem direito a:</p>
-                <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-                  <li>Acessar seus dados pessoais</li>
-                  <li>Corrigir dados imprecisos</li>
-                  <li>Solicitar a exclusão de seus dados</li>
-                  <li>Revogar consentimento</li>
-                </ul>
-              </div>
-
-              <div>
-                <h2 className="text-2xl font-bold mb-4">6. Contato</h2>
-                <p className="text-muted-foreground">
-                  Para questões sobre esta política, entre em contato conosco em <a href="mailto:contato@lgpd-dpo.com" className="text-primary hover:underline">contato@lgpd-dpo.com</a>
-                </p>
-              </div>
-
-              <div className="border-t border-border pt-8">
-                <p className="text-sm text-muted-foreground">
-                  Última atualização: {new Date().toLocaleDateString('pt-BR')}
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-
-      <footer className="border-t border-border bg-background">
-        <div className="container py-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
-            <div>
-              <h4 className="font-semibold mb-4">Produto</h4>
-              <ul className="space-y-2 text-sm">
-                <li><Link href="/servicos" className="text-muted-foreground hover:text-foreground">Serviços</Link></li>
-                <li><Link href="/sobre" className="text-muted-foreground hover:text-foreground">Sobre</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Empresa</h4>
-              <ul className="space-y-2 text-sm">
-                <li><Link href="/contato" className="text-muted-foreground hover:text-foreground">Contato</Link></li>
-                <li><a href="mailto:contato@lgpd-dpo.com" className="text-muted-foreground hover:text-foreground">Email</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Legal</h4>
-              <ul className="space-y-2 text-sm">
-                <li><Link href="/privacidade" className="text-muted-foreground hover:text-foreground">Privacidade</Link></li>
-                <li><Link href="/termos" className="text-muted-foreground hover:text-foreground">Termos</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Subdomínios</h4>
-              <ul className="space-y-2 text-sm">
-                <li><a href="https://app.lgpd-dpo.com" className="text-muted-foreground hover:text-foreground">App</a></li>
-                <li><a href="https://docs.lgpd-dpo.com" className="text-muted-foreground hover:text-foreground">Docs</a></li>
-              </ul>
-            </div>
-          </div>
-          <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; 2026 LGPD & DPO Solutions. Todos os direitos reservados.</p>
-          </div>
-        </div>
-      </footer>
-    </div>
+      </section>
+    </Layout>
   );
 }
