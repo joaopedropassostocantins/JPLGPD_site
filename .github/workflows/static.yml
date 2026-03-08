@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "claude/update-jplgpd-site-d5xxk"]
   workflow_dispatch:
 
 permissions:
@@ -48,4 +48,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist/public
-          cname: pilaresdasabedoria.club
