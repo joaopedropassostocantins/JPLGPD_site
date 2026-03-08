@@ -4,20 +4,17 @@ on:
   push:
     branches:
       - main
-      - claude/update-jplgpd-site-d5xxk
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
   cancel-in-progress: true
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -36,26 +33,18 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build
-        run: pnpm build
+        run: npx vite build --config vite.build.config.ts
         env:
-          # Dominio proprio (pilaresdasabedoria.club) usa /
           VITE_BASE_URL: /
 
-      - name: Copy index.html para 404.html (SPA routing)
-        run: cp dist/public/index.html dist/public/404.html
+      - name: Add .nojekyll and 404.html
+        run: |
+          touch dist/public/.nojekyll
+          cp dist/public/index.html dist/public/404.html
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: dist/public
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist/public
+          cname: pilaresdasabedoria.club
