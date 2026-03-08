@@ -46,7 +46,7 @@ export interface FinancialData {
 }
 
 export const INCOME_RANGES = [
-  "Até R$ 1.500",
+  "Ate R$ 1.500",
   "R$ 1.500 a R$ 3.000",
   "R$ 3.000 a R$ 5.000",
   "R$ 5.000 a R$ 8.000",
@@ -56,88 +56,62 @@ export const INCOME_RANGES = [
 
 export const OCCUPATIONS = [
   "Empregado CLT",
-  "Autônomo / MEI",
-  "Servidor Público",
-  "Empresário",
+  "Autonomo / MEI",
+  "Servidor Publico",
+  "Empresario",
   "Aposentado / Pensionista",
   "Profissional Liberal",
-  "Produtor Rural / Agricultura Familiar",
-  "Empreendedor Social",
   "Outro",
 ] as const;
 
 export const LOAN_PURPOSES = [
-  "Negócio de impacto social",
-  "Energia solar / Sustentabilidade",
-  "Investir no negócio",
-  "Educação",
-  "Saúde",
-  "Reforma / Melhoria da casa",
-  "Quitar dívidas",
-  "Agricultura familiar",
-  "Emergência",
+  "Adequacao LGPD",
+  "DPO as a Service",
+  "Documentacao",
+  "Auditoria",
+  "Treinamento",
   "Outro",
-] as const;
-
-export const ODS_GOALS = [
-  { number: 1, title: "Erradicação da Pobreza", color: "#E5243B" },
-  { number: 5, title: "Igualdade de Gênero", color: "#FF3A21" },
-  { number: 7, title: "Energia Limpa e Acessível", color: "#FCC30B" },
-  { number: 8, title: "Trabalho Decente e Crescimento Econômico", color: "#A21942" },
-  { number: 9, title: "Indústria, Inovação e Infraestrutura", color: "#FD6925" },
-  { number: 10, title: "Redução das Desigualdades", color: "#DD1367" },
-  { number: 11, title: "Cidades e Comunidades Sustentáveis", color: "#FD9D24" },
-  { number: 13, title: "Ação Contra a Mudança Global do Clima", color: "#3F7E44" },
-  { number: 17, title: "Parcerias e Meios de Implementação", color: "#19486A" },
 ] as const;
 
 export const FAQ_ITEMS = [
   {
-    question: "O que é o Empréstimo Social e qual sua relação com os ODS da ONU?",
-    answer: "O Empréstimo Social é uma plataforma de crédito pessoal alinhada aos Objetivos de Desenvolvimento Sustentável (ODS) da ONU. Oferecemos linhas de crédito de R$ 300 a R$ 10.000 com foco em inclusão financeira, apoio a negócios de impacto social e projetos sustentáveis, seguindo a Agenda 2030 das Nações Unidas."
+    question: "O que e a LGPD e quem precisa se adequar?",
+    answer: "A Lei Geral de Protecao de Dados (Lei 13.709/2018) regula o tratamento de dados pessoais no Brasil. Toda organizacao que coleta, armazena ou processa dados pessoais — de clientes, funcionarios ou fornecedores — precisa se adequar, independentemente do porte."
   },
   {
-    question: "O que são os ODS (Objetivos de Desenvolvimento Sustentável)?",
-    answer: "Os ODS são 17 metas globais estabelecidas pela ONU em 2015 como parte da Agenda 2030. Eles visam erradicar a pobreza, proteger o planeta e garantir prosperidade para todos. O Empréstimo Social se alinha especialmente ao ODS 8 (Trabalho Decente e Crescimento Econômico), ODS 10 (Redução das Desigualdades) e ODS 17 (Parcerias para Implementação)."
+    question: "O que e um DPO / Encarregado de Dados?",
+    answer: "O Encarregado de Dados Pessoais (DPO — Data Protection Officer) e o profissional responsavel por atuar como canal de comunicacao entre o controlador, os titulares de dados e a ANPD. A LGPD preve a designacao de um encarregado (Art. 41), cuja obrigatoriedade pode variar conforme o porte e a natureza do tratamento."
   },
   {
-    question: "Preciso de CPF para simular?",
-    answer: "Não! A simulação é totalmente livre e não exige nenhum dado pessoal. O CPF só será solicitado na etapa de proposta, quando você decidir prosseguir."
+    question: "Como funciona o DPO as a Service?",
+    answer: "O DPO as a Service e a terceirizacao da funcao de Encarregado. A 4 Pilares atua como DPO terceirizado da sua empresa: fazemos a designacao formal, estruturamos o canal de atendimento ao titular, respondemos solicitacoes e mantemos a interlocucao com a ANPD quando necessario."
   },
   {
-    question: "Qual a taxa de juros?",
-    answer: "Nossas taxas variam de 2,49% a 5,99% ao mês, dependendo do valor solicitado, prazo escolhido e perfil de crédito. Projetos com impacto social ou ambiental comprovado podem ter condições diferenciadas. O Custo Efetivo Total (CET) é sempre informado antes da contratação."
+    question: "Quanto custa o Plano Essencial?",
+    answer: "O Plano Essencial tem contrato de 24 meses, com R$ 150/mes nos primeiros 12 meses (50% de desconto) e R$ 300/mes nos meses 13 a 24. O valor total do contrato e R$ 5.400, com ticket medio efetivo de R$ 225/mes."
   },
   {
-    question: "O que é o microcrédito inspirado no modelo Yunus?",
-    answer: "Muhammad Yunus, Nobel da Paz, criou o Grameen Bank para oferecer microcrédito a populações de baixa renda, especialmente mulheres. Esse modelo é referência na meta ODS 8.10 da ONU. O Empréstimo Social se inspira nessa filosofia para democratizar o acesso ao crédito no Brasil."
+    question: "O que esta incluido no Plano Essencial?",
+    answer: "O plano inclui: DPO terceirizado com designacao formal, politica de privacidade, termos de uso, RIPD simplificado, ROPA, canal de atendimento ao titular, suporte consultivo mensal e treinamento inicial da equipe."
   },
   {
-    question: "Como meu empréstimo contribui para o desenvolvimento sustentável?",
-    answer: "Ao utilizar o Empréstimo Social, você faz parte de um ecossistema que prioriza o crédito responsável. Parte dos recursos é direcionada a projetos de impacto, como energia solar, agricultura familiar e empreendedorismo feminino, alinhados à Agenda 2030 da ONU."
+    question: "Minha empresa e pequena. Preciso de DPO?",
+    answer: "Depende. A Resolucao CD/ANPD n. 2/2022 flexibiliza algumas obrigacoes para agentes de tratamento de pequeno porte. No entanto, mesmo empresas pequenas que tratam dados pessoais se beneficiam da estruturacao de boas praticas. Fazemos uma avaliacao caso a caso no diagnostico inicial."
   },
   {
-    question: "A aprovação é garantida?",
-    answer: "Não. Toda solicitação passa por uma análise de crédito. A aprovação depende do perfil financeiro do solicitante. Nosso compromisso é com a transparência e a inclusão financeira responsável."
+    question: "A consultoria garante conformidade total com a LGPD?",
+    answer: "Nao. A adequacao a LGPD e um processo continuo que depende da colaboracao ativa da empresa. Nossa consultoria apoia a implementacao progressiva de boas praticas, documentacao e controles, mas a conformidade plena depende de fatores operacionais do contratante."
   },
   {
-    question: "Quanto tempo leva a análise?",
-    answer: "O prazo estimado para análise é de até 3 dias úteis após o envio completo da proposta. Você será notificado por e-mail sobre o resultado."
+    question: "Como comeco?",
+    answer: "Entre em contato via WhatsApp ou e-mail para agendar o diagnostico inicial (sem compromisso). Avaliamos a situacao da sua empresa e enviamos uma proposta personalizada com contrato."
   },
   {
-    question: "O seguro é obrigatório?",
-    answer: "Não. O seguro é totalmente opcional e não influencia na análise ou aprovação do seu empréstimo. Ele oferece uma proteção adicional por um valor fixo de R$ 19,00, cobrindo situações como desemprego involuntário e incapacidade temporária."
+    question: "Posso cancelar o contrato?",
+    answer: "Sim. O contrato preve clausulas de rescisao com multa proporcional ao tempo restante. Antes do inicio da execucao, aplica-se o direito de arrependimento de 7 dias (CDC). Detalhes completos estarao na proposta contratual."
   },
   {
-    question: "Meus dados estão seguros?",
-    answer: "Sim. Seguimos rigorosamente a Lei Geral de Proteção de Dados (LGPD). Seus dados são criptografados e utilizados exclusivamente para a análise de crédito. Consulte nossa Política de Privacidade."
-  },
-  {
-    question: "Posso antecipar parcelas?",
-    answer: "Sim! Você pode antecipar parcelas a qualquer momento, com desconto proporcional dos juros conforme previsto no Código de Defesa do Consumidor."
-  },
-  {
-    question: "Como entro em contato?",
-    answer: "Você pode entrar em contato conosco pelo e-mail contato@emprestimosocial.com.br ou pelo telefone 0800-644-1600 (opção 2), de segunda a sexta, das 9h às 18h."
+    question: "Os dados da minha empresa ficam seguros?",
+    answer: "Sim. Adotamos medidas tecnicas e organizacionais de seguranca, incluindo criptografia e controles de acesso. Nosso proprio tratamento de dados segue as diretrizes da LGPD. Consulte nossa Politica de Privacidade para mais detalhes."
   },
 ] as const;

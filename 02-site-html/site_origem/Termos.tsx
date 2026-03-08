@@ -7,123 +7,106 @@ export default function Termos() {
         <div className="container">
           <div className="max-w-3xl mx-auto">
             <h1 className="text-3xl font-bold text-foreground mb-2">Termos de Uso</h1>
-            <p className="text-sm text-muted-foreground mb-8">Última atualização: Fevereiro de 2026</p>
+            <p className="text-sm text-muted-foreground mb-8">Ultima atualizacao: Marco de 2026</p>
 
             <div className="space-y-6 text-foreground/90 leading-relaxed">
               <section>
-                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">1. Aceitação dos Termos</h2>
+                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">1. Aceitacao dos Termos</h2>
                 <p className="text-sm text-muted-foreground">
-                  Ao acessar e utilizar o site e os serviços da Empréstimo Social LTDA ("Empresa"), você declara 
-                  ter lido, compreendido e aceito integralmente estes Termos de Uso. Caso não concorde com qualquer 
-                  disposição, não utilize nossos serviços.
+                  Ao acessar e utilizar o site e os servicos da 4 Pilares Consultoria LTDA ("Empresa"),
+                  voce declara ter lido, compreendido e aceito integralmente estes Termos de Uso.
+                  Caso nao concorde com qualquer disposicao, nao utilize nossos servicos.
                 </p>
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">2. Descrição dos Serviços</h2>
+                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">2. Descricao dos Servicos</h2>
                 <p className="text-sm text-muted-foreground">
-                  A Empresa oferece serviços de originação de crédito pessoal (empréstimo social), incluindo: 
-                  simulação de empréstimo; coleta e análise de propostas de crédito; e oferta opcional de seguro. 
-                  A Empresa atua como originadora de crédito próprio, não sendo intermediária financeira.
+                  A Empresa oferece servicos de consultoria em privacidade e protecao de dados pessoais,
+                  incluindo: DPO as a Service (Encarregado de Dados terceirizado); elaboracao de documentacao
+                  LGPD (politica de privacidade, RIPD, ROPA, termos de uso); auditoria e diagnostico de
+                  conformidade; e treinamentos para equipes.
                 </p>
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">3. Elegibilidade</h2>
+                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">3. Contratacao</h2>
                 <p className="text-sm text-muted-foreground">
-                  Para utilizar nossos serviços, você deve: ser pessoa física, maior de 18 anos; possuir CPF válido 
-                  e regular; residir no território brasileiro; e fornecer informações verdadeiras e completas.
+                  A contratacao dos servicos se da mediante proposta comercial e assinatura de contrato
+                  de prestacao de servicos. O contrato padrao (Plano Essencial) tem prazo de 24 meses,
+                  com condicoes detalhadas na proposta contratual enviada apos o diagnostico inicial.
                 </p>
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">4. Simulação e Proposta</h2>
+                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">4. Obrigacoes do Usuario</h2>
                 <p className="text-sm text-muted-foreground">
-                  A simulação de empréstimo é meramente ilustrativa e não constitui oferta vinculante. Os valores, 
-                  taxas e condições apresentados na simulação podem variar conforme a análise de crédito. A aprovação 
-                  do crédito não é garantida e depende da análise do perfil do solicitante.
-                </p>
-                <p className="text-sm text-muted-foreground mt-2">
-                  Ao enviar uma proposta, o usuário autoriza a Empresa a realizar a análise de crédito, incluindo 
-                  consulta a birôs de crédito, conforme consentimento específico fornecido durante o processo.
+                  O usuario se compromete a: fornecer informacoes verdadeiras e completas; colaborar
+                  ativamente com as atividades de adequacao; manter a confidencialidade dos documentos
+                  produzidos; e comunicar imediatamente qualquer incidente de seguranca envolvendo dados
+                  pessoais.
                 </p>
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">5. Seguro Opcional</h2>
+                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">5. Pagamento</h2>
                 <p className="text-sm text-muted-foreground">
-                  A Empresa oferece um seguro opcional no valor de R$ 19,00 (dezenove reais), pago via PIX. 
-                  A contratação do seguro é totalmente voluntária e não constitui condição para a aprovação 
-                  do empréstimo. O usuário pode optar por não contratar o seguro sem qualquer prejuízo à análise 
-                  de sua proposta.
+                  Os valores e condicoes de pagamento serao definidos na proposta contratual. O Plano
+                  Essencial preve R$ 150/mes nos primeiros 12 meses e R$ 300/mes nos meses 13 a 24
+                  (contrato de 24 meses, total de R$ 5.400). Formas de pagamento incluem PIX, boleto
+                  e cartao de credito.
                 </p>
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">6. Obrigações do Usuário</h2>
+                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">6. Cancelamento e Rescisao</h2>
                 <p className="text-sm text-muted-foreground">
-                  O usuário se compromete a: fornecer informações verdadeiras, completas e atualizadas; não utilizar 
-                  o site para fins ilícitos ou fraudulentos; manter a confidencialidade de seus dados de acesso; 
-                  e comunicar imediatamente qualquer uso não autorizado de sua conta.
+                  O contratante pode solicitar a rescisao a qualquer momento, observada a multa
+                  proporcional prevista no contrato. Antes do inicio da execucao, aplica-se o direito
+                  de arrependimento de 7 (sete) dias corridos, conforme o Codigo de Defesa do Consumidor.
+                  Detalhes completos constam na proposta contratual.
                 </p>
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">7. Taxas e Encargos</h2>
+                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">7. Limitacao de Responsabilidade</h2>
                 <p className="text-sm text-muted-foreground">
-                  As taxas de juros, CET (Custo Efetivo Total) e demais encargos serão informados de forma clara 
-                  e transparente antes da contratação do crédito, em conformidade com o Código de Defesa do Consumidor 
-                  (Lei nº 8.078/1990) e regulamentações do Banco Central do Brasil.
+                  A Empresa nao garante conformidade total com a LGPD, pois a adequacao depende da
+                  colaboracao ativa do contratante e de fatores operacionais de seu negocio. A Empresa
+                  nao se responsabiliza por decisoes tomadas pelo contratante sem consulta previa,
+                  nem por incidentes causados por falhas de seguranca do contratante.
                 </p>
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">8. Cancelamento e Desistência</h2>
+                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">8. Propriedade Intelectual</h2>
                 <p className="text-sm text-muted-foreground">
-                  O usuário pode cancelar sua proposta a qualquer momento antes da liberação do crédito, sem custos 
-                  adicionais. Após a contratação, aplica-se o direito de arrependimento previsto no CDC, no prazo 
-                  de 7 (sete) dias corridos a contar da assinatura do contrato.
+                  Os documentos, modelos e materiais produzidos pela Empresa no ambito da prestacao de
+                  servicos sao de uso exclusivo do contratante, vedada a redistribuicao comercial sem
+                  autorizacao. O conteudo do site e de propriedade da Empresa.
                 </p>
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">9. Propriedade Intelectual</h2>
+                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">9. Foro</h2>
                 <p className="text-sm text-muted-foreground">
-                  Todo o conteúdo do site, incluindo textos, imagens, logotipos, layout e código-fonte, é de 
-                  propriedade da Empresa e protegido pela legislação de propriedade intelectual. É proibida a 
-                  reprodução, distribuição ou modificação sem autorização prévia.
+                  Fica eleito o foro da comarca de Palmas/TO para dirimir quaisquer controversias
+                  decorrentes destes Termos de Uso, com renuncia a qualquer outro, por mais
+                  privilegiado que seja.
                 </p>
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">10. Limitação de Responsabilidade</h2>
+                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">10. Contato</h2>
                 <p className="text-sm text-muted-foreground">
-                  A Empresa não se responsabiliza por: decisões financeiras tomadas pelo usuário com base nas simulações; 
-                  indisponibilidade temporária do site por motivos técnicos; e danos decorrentes de informações falsas 
-                  fornecidas pelo usuário.
-                </p>
-              </section>
-
-              <section>
-                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">11. Foro</h2>
-                <p className="text-sm text-muted-foreground">
-                  Fica eleito o foro da comarca de São Paulo/SP para dirimir quaisquer controvérsias decorrentes 
-                  destes Termos de Uso, com renúncia a qualquer outro, por mais privilegiado que seja.
-                </p>
-              </section>
-
-              <section>
-                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">12. Contato</h2>
-                <p className="text-sm text-muted-foreground">
-                  Para dúvidas sobre estes Termos de Uso, entre em contato:<br />
-                  E-mail: <strong>contato@emprestimosocial.com.br</strong><br />
-                  Telefone: <strong>0800-644-1600 — opção 2</strong>
+                  Para duvidas sobre estes Termos de Uso, entre em contato:<br />
+                  E-mail: <strong>contato@4pilaresconsultoria.com.br</strong>
                 </p>
               </section>
 
               <p className="text-xs text-muted-foreground mt-8 italic">
-                * Este documento é um modelo para fins de demonstração e deve ser revisado por um advogado 
-                especializado antes de ser utilizado em produção.
+                * Este documento e uma minuta e deve ser revisado por advogado
+                especializado antes de ser utilizado em producao.
               </p>
             </div>
           </div>

@@ -6,122 +6,109 @@ export default function Privacidade() {
       <section className="py-12 md:py-20">
         <div className="container">
           <div className="max-w-3xl mx-auto prose prose-sm sm:prose-base prose-slate">
-            <h1 className="text-3xl font-bold text-foreground mb-2">Política de Privacidade</h1>
-            <p className="text-sm text-muted-foreground mb-8">Última atualização: Fevereiro de 2026</p>
+            <h1 className="text-3xl font-bold text-foreground mb-2">Politica de Privacidade</h1>
+            <p className="text-sm text-muted-foreground mb-8">Ultima atualizacao: Marco de 2026</p>
 
             <div className="space-y-6 text-foreground/90 leading-relaxed">
               <section>
-                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">1. Introdução</h2>
+                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">1. Introducao</h2>
                 <p className="text-sm text-muted-foreground">
-                  A Empréstimo Social LTDA ("nós", "nosso" ou "Empresa") está comprometida com a proteção da privacidade 
-                  e dos dados pessoais de seus usuários, em conformidade com a Lei Geral de Proteção de Dados Pessoais 
-                  (Lei nº 13.709/2018 — LGPD) e demais normas aplicáveis.
-                </p>
-                <p className="text-sm text-muted-foreground mt-2">
-                  Esta Política de Privacidade descreve como coletamos, utilizamos, armazenamos e protegemos suas 
-                  informações pessoais ao utilizar nosso site e serviços.
+                  A 4 Pilares Consultoria LTDA ("nos", "nosso" ou "Empresa") esta comprometida com a
+                  protecao da privacidade e dos dados pessoais de seus clientes, prospects e usuarios
+                  do site, em conformidade com a Lei Geral de Protecao de Dados Pessoais
+                  (Lei n. 13.709/2018 — LGPD) e demais normas aplicaveis.
                 </p>
               </section>
 
               <section>
                 <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">2. Dados Coletados</h2>
-                <p className="text-sm text-muted-foreground">Coletamos os seguintes dados pessoais, de acordo com a finalidade e a etapa do processo:</p>
+                <p className="text-sm text-muted-foreground">Coletamos os seguintes dados pessoais:</p>
                 <ul className="list-disc pl-5 text-sm text-muted-foreground space-y-1 mt-2">
-                  <li><strong>Dados de identificação:</strong> nome completo, CPF, data de nascimento.</li>
-                  <li><strong>Dados de contato:</strong> e-mail, telefone celular.</li>
-                  <li><strong>Dados de endereço:</strong> CEP, logradouro, número, complemento, bairro, cidade e estado.</li>
-                  <li><strong>Dados financeiros:</strong> faixa de renda, ocupação, objetivo do empréstimo.</li>
-                  <li><strong>Dados de navegação:</strong> endereço IP, cookies, parâmetros UTM, páginas visitadas.</li>
-                  <li><strong>Dados de transação:</strong> informações relacionadas ao pagamento do seguro opcional via PIX.</li>
+                  <li><strong>Dados de identificacao:</strong> nome, CNPJ, razao social.</li>
+                  <li><strong>Dados de contato:</strong> e-mail, telefone, WhatsApp.</li>
+                  <li><strong>Dados de navegacao:</strong> endereco IP, cookies, paginas visitadas, parametros UTM.</li>
+                  <li><strong>Dados do diagnostico:</strong> informacoes fornecidas durante o diagnostico inicial e execucao do servico.</li>
                 </ul>
               </section>
 
               <section>
                 <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">3. Finalidade do Tratamento</h2>
-                <p className="text-sm text-muted-foreground">Seus dados são tratados para as seguintes finalidades:</p>
                 <ul className="list-disc pl-5 text-sm text-muted-foreground space-y-1 mt-2">
-                  <li>Análise e concessão de crédito pessoal.</li>
-                  <li>Prevenção à fraude e verificação de identidade.</li>
-                  <li>Consulta a birôs de crédito (mediante consentimento).</li>
-                  <li>Comunicação sobre o andamento da proposta.</li>
-                  <li>Cumprimento de obrigações legais e regulatórias.</li>
-                  <li>Melhoria dos nossos serviços e experiência do usuário.</li>
+                  <li>Prestacao de servicos de consultoria LGPD contratados.</li>
+                  <li>Comunicacao sobre andamento dos servicos e novidades.</li>
+                  <li>Envio de propostas comerciais solicitadas.</li>
+                  <li>Cumprimento de obrigacoes legais e regulatorias.</li>
+                  <li>Melhoria dos nossos servicos e experiencia do usuario.</li>
                 </ul>
               </section>
 
               <section>
                 <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">4. Base Legal</h2>
                 <p className="text-sm text-muted-foreground">
-                  O tratamento de dados pessoais é realizado com base nas seguintes hipóteses legais previstas na LGPD: 
-                  consentimento do titular (Art. 7º, I); execução de contrato ou procedimentos preliminares (Art. 7º, V); 
-                  cumprimento de obrigação legal ou regulatória (Art. 7º, II); legítimo interesse (Art. 7º, IX); 
-                  e proteção do crédito (Art. 7º, X).
+                  O tratamento de dados pessoais e realizado com base nas seguintes hipoteses legais
+                  previstas na LGPD: consentimento do titular (Art. 7, I); execucao de contrato ou
+                  procedimentos preliminares (Art. 7, V); cumprimento de obrigacao legal ou regulatoria
+                  (Art. 7, II); e legitimo interesse (Art. 7, IX).
                 </p>
               </section>
 
               <section>
                 <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">5. Compartilhamento de Dados</h2>
                 <p className="text-sm text-muted-foreground">
-                  Seus dados podem ser compartilhados com: birôs de crédito (SPC, Serasa) para análise de crédito; 
-                  prestadores de serviços essenciais (processamento de pagamentos, hospedagem de dados); 
-                  e autoridades competentes, quando exigido por lei.
-                </p>
-                <p className="text-sm text-muted-foreground mt-2">
-                  Não vendemos, alugamos ou comercializamos seus dados pessoais com terceiros para fins de marketing.
+                  Seus dados podem ser compartilhados com: prestadores de servicos essenciais
+                  (hospedagem, processamento de pagamentos); e autoridades competentes, quando
+                  exigido por lei. Nao vendemos ou comercializamos dados pessoais.
                 </p>
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">6. Segurança dos Dados</h2>
+                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">6. Seguranca dos Dados</h2>
                 <p className="text-sm text-muted-foreground">
-                  Adotamos medidas técnicas e organizacionais adequadas para proteger seus dados pessoais contra acesso 
-                  não autorizado, destruição, perda, alteração ou qualquer forma de tratamento inadequado.
+                  Adotamos medidas tecnicas e organizacionais adequadas para proteger seus dados
+                  pessoais contra acesso nao autorizado, destruicao, perda ou alteracao.
                 </p>
               </section>
 
               <section>
                 <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">7. Direitos do Titular</h2>
                 <p className="text-sm text-muted-foreground">
-                  Conforme a LGPD, você tem direito a: confirmar a existência de tratamento; acessar seus dados; 
-                  corrigir dados incompletos ou desatualizados; solicitar anonimização, bloqueio ou eliminação de dados 
-                  desnecessários; solicitar portabilidade; revogar consentimento; e obter informações sobre compartilhamento.
+                  Conforme a LGPD, voce tem direito a: confirmar a existencia de tratamento; acessar
+                  seus dados; corrigir dados incompletos; solicitar anonimizacao, bloqueio ou eliminacao;
+                  solicitar portabilidade; revogar consentimento; e obter informacoes sobre compartilhamento.
                 </p>
                 <p className="text-sm text-muted-foreground mt-2">
-                  Para exercer seus direitos, entre em contato pelo e-mail: <strong>privacidade@emprestimosocial.com.br</strong>.
+                  Para exercer seus direitos, entre em contato: <strong>privacidade@4pilaresconsultoria.com.br</strong>.
                 </p>
               </section>
 
               <section>
                 <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">8. Cookies</h2>
                 <p className="text-sm text-muted-foreground">
-                  Utilizamos cookies essenciais para o funcionamento do site e cookies analíticos para melhorar a experiência 
-                  do usuário. Você pode gerenciar suas preferências de cookies nas configurações do seu navegador.
+                  Utilizamos cookies essenciais para o funcionamento do site e cookies analiticos para
+                  melhorar a experiencia do usuario. Voce pode gerenciar suas preferencias de cookies
+                  nas configuracoes do seu navegador.
                 </p>
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">9. Retenção de Dados</h2>
+                <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">9. Retencao de Dados</h2>
                 <p className="text-sm text-muted-foreground">
-                  Seus dados serão mantidos pelo período necessário para cumprir as finalidades descritas nesta política 
-                  e para atender obrigações legais e regulatórias. Após esse período, os dados serão eliminados ou anonimizados.
+                  Seus dados serao mantidos pelo periodo necessario para cumprir as finalidades
+                  descritas nesta politica e para atender obrigacoes legais e regulatorias.
                 </p>
               </section>
 
               <section>
                 <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">10. Contato</h2>
                 <p className="text-sm text-muted-foreground">
-                  Para dúvidas sobre esta Política de Privacidade ou sobre o tratamento de seus dados pessoais, 
-                  entre em contato com nosso Encarregado de Proteção de Dados (DPO):
-                </p>
-                <p className="text-sm text-muted-foreground mt-2">
-                  E-mail: <strong>privacidade@emprestimosocial.com.br</strong><br />
-                  Telefone: <strong>0800-644-1600 — opção 2</strong>
+                  Para duvidas sobre esta Politica de Privacidade:<br />
+                  E-mail: <strong>privacidade@4pilaresconsultoria.com.br</strong>
                 </p>
               </section>
 
               <p className="text-xs text-muted-foreground mt-8 italic">
-                * Este documento é um modelo para fins de demonstração e deve ser revisado por um advogado 
-                especializado antes de ser utilizado em produção.
+                * Este documento e uma minuta e deve ser revisado por advogado
+                especializado antes de ser utilizado em producao.
               </p>
             </div>
           </div>
