@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 Pilares LGPD - DPO Certificado R$ 150/mês | Lei, Regras, Conformidade e Titular</title>
+    <meta name="description" content="Consultoria LGPD com metodologia 4 Pilares. DPO certificado a partir de R$ 150/mês. Adequação completa à LGPD, Marco Civil e Estatuto Digital. CNPJ: 58.551.044/0001-90">
+    <meta name="keywords" content="LGPD, DPO, Data Protection Officer, Adequação LGPD, Consultoria LGPD, Proteção de Dados, Marco Civil, Estatuto Digital">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="4 Pilares LGPD - DPO Certificado R$ 150/mês">
+    <meta property="og:description" content="Consultoria LGPD com DPO certificado. Promoção: R$ 150/mês para agentes de pequeno porte.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pilaresdasabedoria.club">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --azul-escuro: #0f172a;
+            --azul-medio: #1e40af;
+            --azul-claro: #3b82f6;
+            --verde-whatsapp: #25d366;
+            --laranja: #f97316;
+            --verde: #10b981;
+            --cinza-claro: #f8fafc;
+            --roxo: #7c3aed;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        /* Header */
+        header {
+            background: linear-gradient(135deg, var(--azul-escuro) 0%, var(--azul-medio) 100%);
+            color: white;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .logo-pillars {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2px;
+            width: 30px;
+            height: 30px;
+        }
+        
+        .pillar {
+            border-radius: 2px;
+        }
+        
+        .pillar-1 { background: var(--azul-escuro); }
+        .pillar-2 { background: #065f46; }
+        .pillar-3 { background: var(--laranja); }
+        .pillar-4 { background: var(--roxo); }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: var(--azul-claro);
+        }
+        
+        .cta-button {
+            background: var(--laranja);
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-weight: bold;
+            display: inline-block;
+        }
+        
+        .cta-button:hover {
+            background: #ea580c;
+            color: white !important;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--azul-escuro) 0%, var(--azul-medio) 100%);
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 800;
+        }
+        
+        .hero .subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .promo-badge {
+            background: var(--verde);
+            color: white;
+            padding: 0.5rem 1.5rem;
+            border-radius: 50px;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+        
+        .btn-primary {
+            background: var(--laranja);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #ea580c;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(249, 115, 22, 0.4);
+        }
+        
+        .btn-secondary {
+            background: white;
+            color: var(--azul-escuro);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--cinza-claro);
+            transform: translateY(-2px);
+        }
+        
+        /* 4 Pilares Grid */
+        .pilares-section {
+            padding: 4rem 0;
+            background: var(--cinza-claro);
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 3rem;
+            color: var(--azul-escuro);
+        }
+        
+        .pilares-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .pilar-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            border-top: 4px solid;
+        }
+        
+        .pilar-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        
+        .pilar-card.lei { border-color: var(--azul-escuro); }
+        .pilar-card.regras { border-color: #065f46; }
+        .pilar-card.conformidade { border-color: var(--laranja); }
+        .pilar-card.titular { border-color: var(--roxo); }
+        
+        .pilar-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .pilar-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--azul-escuro);
+        }
+        
+        .pilar-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .pilar-card li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .pilar-card li:before {
+            content: "✓ ";
+            color: var(--verde);
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+        
+        /* Legislação */
+        .legislacao-section {
+            padding: 4rem 0;
+            background: white;
+        }
+        
+        .legislacao-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .lei-card {
+            background: var(--cinza-claro);
+            padding: 2rem;
+            border-radius: 12px;
+            border-left: 4px solid var(--azul-medio);
+        }
+        
+        .lei-card h3 {
+            color: var(--azul-escuro);
+            margin-bottom: 0.5rem;
+        }
+        
+        .lei-card .lei-numero {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 1rem;
+        }
+        
+        .lei-card .destaque {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+            font-weight: bold;
+            color: var(--laranja);
+        }
+        
+        /* Preços */
+        .precos-section {
+            padding: 4rem 0;
+            background: var(--cinza-claro);
+        }
+        
+        .precos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .preco-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            position: relative;
+        }
+        
+        .preco-card.destaque {
+            border: 3px solid var(--laranja);
+            transform: scale(1.05);
+        }
+        
+        .badge {
+            position: absolute;
+            top: -15px;
+            right: 20px;
+            background: var(--laranja);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+        
+        .preco-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--azul-escuro);
+        }
+        
+        .preco {
+            font-size: 3rem;
+            font-weight: bold;
+            color: var(--laranja);
+            margin-bottom: 0.5rem;
+        }
+        
+        .preco small {
+            font-size: 1rem;
+            color: #666;
+        }
+        
+        .preco-original {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 1.2rem;
+        }
+        
+        .preco-card ul {
+            list-style: none;
+            padding: 2rem 0;
+            text-align: left;
+        }
+        
+        .preco-card li {
+            padding: 0.5rem 0;
+        }
+        
+        .preco-card li:before {
+            content: "✓ ";
+            color: var(--verde);
+            font-weight: bold;
+        }
+        
+        /* Sobre */
+        .sobre-section {
+            padding: 4rem 0;
+            background: white;
+        }
+        
+        .sobre-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+        
+        .sobre-content h2 {
+            color: var(--azul-escuro);
+            margin-bottom: 1rem;
+        }
+        
+        .sobre-content p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+        
+        .credenciais {
+            background: var(--cinza-claro);
+            padding: 2rem;
+            border-radius: 12px;
+        }
+        
+        .credenciais h3 {
+            color: var(--azul-escuro);
+            margin-bottom: 1rem;
+        }
+        
+        .credenciais ul {
+            list-style: none;
+        }
+        
+        .credenciais li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        /* Contato */
+        .contato-section {
+            padding: 4rem 0;
+            background: var(--azul-escuro);
+            color: white;
+        }
+        
+        .contato-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .contato-card {
+            background: rgba(255,255,255,0.1);
+            padding: 2rem;
+            border-radius: 12px;
+            text-align: center;
+        }
+        
+        .contato-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .contato-card h3 {
+            margin-bottom: 1rem;
+        }
+        
+        .contato-card a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        
+        .contato-card a:hover {
+            color: var(--azul-claro);
+        }
+        
+        /* Footer */
+        footer {
+            background: #000;
+            color: white;
+            padding: 3rem 0 1rem;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .footer-col h4 {
+            margin-bottom: 1rem;
+            color: var(--azul-claro);
+        }
+        
+        .footer-col ul {
+            list-style: none;
+        }
+        
+        .footer-col li {
+            padding: 0.25rem 0;
+        }
+        
+        .footer-col a {
+            color: #ccc;
+            text-decoration: none;
+        }
+        
+        .footer-col a:hover {
+            color: white;
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #333;
+            color: #999;
+        }
+        
+        /* WhatsApp Floating Button */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: var(--verde-whatsapp);
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+            z-index: 1000;
+            text-decoration: none;
+            animation: bounce 2s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .whatsapp-float:hover {
+            background: #20ba5a;
+            transform: scale(1.1);
+        }
+        
+        .whatsapp-badge {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            background: var(--laranja);
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 10px;
+            font-size: 0.7rem;
+            font-weight: bold;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            
+            .sobre-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+            }
+            
+            .pilares-grid,
+            .legislacao-grid,
+            .precos-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <div class="logo-pillars">
+                        <div class="pillar pillar-1"></div>
+                        <div class="pillar pillar-2"></div>
+                        <div class="pillar pillar-3"></div>
+                        <div class="pillar pillar-4"></div>
+                    </div>
+                    <span>4 PILARES LGPD</span>
+                </div>
+                <ul>
+                    <li><a href="#pilares">Os 4 Pilares</a></li>
+                    <li><a href="#legislacao">Legislação</a></li>
+                    <li><a href="#precos">Planos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato" class="cta-button">Contratar Agora</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="promo-badge">🎉 PROMOÇÃO: R$ 150/mês (primeiros 12 meses)</div>
+            <h1>Consultoria LGPD com DPO Certificado<br>Lei • Regras • Conformidade • Titular</h1>
+            <p class="subtitle">Adequação completa à LGPD, Marco Civil da Internet e Estatuto Digital.<br>Metodologia exclusiva baseada em 4 Pilares de conformidade.</p>
+            <div class="cta-buttons">
+                <a href="https://wa.me/5563984381782?text=Quero%20contratar%20DPO%20por%20R%24150" class="btn btn-primary">Contratar Agora - R$ 150/mês</a>
+                <a href="#sobre" class="btn btn-secondary">Conhecer a Empresa</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4 Pilares -->
+    <section id="pilares" class="pilares-section">
+        <div class="container">
+            <h2 class="section-title">Nossa Metodologia: Os 4 Pilares da Conformidade</h2>
+            <div class="pilares-grid">
+                <div class="pilar-card lei">
+                    <div class="pilar-icon">🏛️</div>
+                    <h3>PILAR 1: LEI</h3>
+                    <p><strong>Base Legal</strong></p>
+                    <ul>
+                        <li>LGPD (Lei 13.709/2018)</li>
+                        <li>Marco Civil da Internet</li>
+                        <li>Estatuto Digital (Lei 15.211/2025)</li>
+                        <li>Resoluções ANPD</li>
+                        <li>Identificação de bases legais</li>
+                    </ul>
+                </div>
+                
+                <div class="pilar-card regras">
+                    <div class="pilar-icon">📋</div>
+                    <h3>PILAR 2: REGRAS</h3>
+                    <p><strong>Governança</strong></p>
+                    <ul>
+                        <li>Política de Privacidade</li>
+                        <li>Termos de Uso</li>
+                        <li>RIPD e ROPA</li>
+                        <li>POPs (Procedimentos)</li>
+                        <li>Framework de governança</li>
+                    </ul>
+                </div>
+                
+                <div class="pilar-card conformidade">
+                    <div class="pilar-icon">✅</div>
+                    <h3>PILAR 3: CONFORMIDADE</h3>
+                    <p><strong>Certificação</strong></p>
+                    <ul>
+                        <li>DPO Certificado e Registrado</li>
+                        <li>Auditorias periódicas</li>
+                        <li>GAP Analysis</li>
+                        <li>Treinamentos</li>
+                        <li>Certificação ANPD</li>
+                    </ul>
+                </div>
+                
+                <div class="pilar-card titular">
+                    <div class="pilar-icon">👤</div>
+                    <h3>PILAR 4: TITULAR</h3>
+                    <p><strong>Direitos</strong></p>
+                    <ul>
+                        <li>Canal de atendimento</li>
+                        <li>Gestão de requisições</li>
+                        <li>Portal de privacidade</li>
+                        <li>Resposta a incidentes</li>
+                        <li>Transparência total</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Legislação -->
+    <section id="legislacao" class="legislacao-section">
+        <div class="container">
+            <h2 class="section-title">Legislação Aplicável - 100% Atualizado</h2>
+            <div class="legislacao-grid">
+                <div class="lei-card">
+                    <h3>LGPD</h3>
+                    <p class="lei-numero">Lei 13.709/2018</p>
+                    <p>Lei Geral de Proteção de Dados Pessoais. Regula tratamento de dados pessoais no Brasil.</p>
+                    <p><strong>Multas:</strong> Até 2% do faturamento (limite R$ 50 milhões)</p>
+                </div>
+                
+                <div class="lei-card">
+                    <h3>Marco Civil da Internet</h3>
+                    <p class="lei-numero">Lei 12.965/2014 + Decreto 8.771/2016</p>
+                    <p>Estabelece princípios, garantias, direitos e deveres para uso da Internet no Brasil.</p>
+                    <p><strong>Aplicação:</strong> Sites, apps e plataformas digitais</p>
+                </div>
+                
+                <div class="lei-card">
+                    <h3>Estatuto Digital da Criança</h3>
+                    <p class="lei-numero">Lei 15.211/2025 + Decreto 12.622/2025</p>
+                    <p>Proteção especial para dados de crianças e adolescentes.</p>
+                    <div class="destaque">⚠️ VIGÊNCIA: 17/03/2026 - Adequação obrigatória!</div>
+                    <p><strong>Multas:</strong> Até 10% do faturamento (limite R$ 50 milhões)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preços -->
+    <section id="precos" class="precos-section">
+        <div class="container">
+            <h2 class="section-title">Planos e Preços - Promoção Agente de Pequeno Porte</h2>
+            <div class="precos-grid">
+                <div class="preco-card destaque">
+                    <div class="badge">🔥 PROMOÇÃO</div>
+                    <h3>Plano Básico ANPD</h3>
+                    <div class="preco-original">De R$ 300/mês</div>
+                    <div class="preco">R$ 150<small>/mês</small></div>
+                    <p><strong>Primeiros 12 meses</strong><br>Depois: R$ 300/mês</p>
+                    <p style="margin-top:1rem;"><small>Exclusivo para Agentes de Pequeno Porte<br>(Res. ANPD nº 2/2022)</small></p>
+                    <ul>
+                        <li>DPO Certificado ANPD</li>
+                        <li>Política de Privacidade</li>
+                        <li>Termos de Uso</li>
+                        <li>RIPD e ROPA simplificados</li>
+                        <li>Canal de atendimento titular</li>
+                        <li>Treinamento básico (4h/ano)</li>
+                        <li>Suporte por e-mail</li>
+                        <li>Painel de controle web</li>
+                    </ul>
+                    <a href="https://wa.me/5563984381782?text=Quero%20contratar%20Plano%20Básico%20por%20R%24150" class="btn btn-primary" style="margin-top:2rem;width:100%;">Contratar Agora</a>
+                </div>
+                
+                <div class="preco-card">
+                    <h3>Plano Essencial</h3>
+                    <div class="preco">R$ 997<small>/mês</small></div>
+                    <p><strong>Até 10 colaboradores</strong></p>
+                    <ul>
+                        <li>Tudo do Plano Básico +</li>
+                        <li>LIA e DIA completos</li>
+                        <li>Auditoria semestral</li>
+                        <li>Treinamento avançado (8h/ano)</li>
+                        <li>Suporte WhatsApp</li>
+                        <li>Resposta em 24h</li>
+                    </ul>
+                    <a href="https://wa.me/5563984381782?text=Quero%20saber%20mais%20sobre%20Plano%20Essencial" class="btn btn-secondary" style="margin-top:2rem;width:100%;">Saber Mais</a>
+                </div>
+                
+                <div class="preco-card">
+                    <h3>Plano Profissional</h3>
+                    <div class="preco">R$ 1.997<small>/mês</small></div>
+                    <p><strong>11-50 colaboradores</strong></p>
+                    <ul>
+                        <li>Tudo do Essencial +</li>
+                        <li>Documentação completa</li>
+                        <li>Auditoria trimestral</li>
+                        <li>Treinamentos ilimitados</li>
+                        <li>Resposta prioritária (4h)</li>
+                        <li>Adequação Estatuto Digital</li>
+                    </ul>
+                    <a href="https://wa.me/5563984381782?text=Quero%20saber%20mais%20sobre%20Plano%20Profissional" class="btn btn-secondary" style="margin-top:2rem;width:100%;">Saber Mais</a>
+                </div>
+            </div>
+            
+            <div style="text-align:center;margin-top:3rem;background:white;padding:2rem;border-radius:12px;">
+                <h3 style="color:var(--azul-escuro);margin-bottom:1rem;">✅ Garantia de 7 Dias</h3>
+                <p>Não gostou? Devolvemos 100% do seu dinheiro nos primeiros 7 dias. Sem perguntas.</p>
+                <p style="margin-top:1rem;"><strong>Sem taxa de adesão | Sem fidelidade após período promocional | Cancele quando quiser</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="sobre-section">
+        <div class="container">
+            <h2 class="section-title">Quem Somos</h2>
+            <div class="sobre-grid">
+                <div class="sobre-content">
+                    <h2>4 PILARES LGPD</h2>
+                    <p><strong>Razão Social:</strong> 4 PILARES LGPD "LEI-REGRAS-CONFORMIDADE-TITULAR DOS DADOS"</p>
+                    <p><strong>CNPJ:</strong> 58.551.044/0001-90</p>
+                    <p><strong>Sede:</strong> Palmas/TO</p>
+                    
+                    <p style="margin-top:2rem;">Somos uma consultoria especializada em proteção de dados com metodologia própria baseada em 4 pilares fundamentais: <strong>Lei, Regras, Conformidade e Titular</strong>.</p>
+                    
+                    <p>Nossa equipe multidisciplinar combina expertise jurídica, técnica e acadêmica para entregar soluções completas de adequação à LGPD, Marco Civil da Internet e Estatuto Digital.</p>
+                    
+                    <p><strong>Diferenciais:</strong></p>
+                    <ul style="list-style:none;padding-left:0;">
+                        <li style="padding:0.5rem 0;">✓ DPO Certificado e Registrado na ANPD</li>
+                        <li style="padding:0.5rem 0;">✓ Metodologia exclusiva 4 Pilares</li>
+                        <li style="padding:0.5rem 0;">✓ Melhor custo-benefício do mercado</li>
+                        <li style="padding:0.5rem 0;">✓ Adequação rápida (30-60 dias)</li>
+                        <li style="padding:0.5rem 0;">✓ Painel de controle em tempo real</li>
+                        <li style="padding:0.5rem 0;">✓ Atendimento nacional</li>
+                    </ul>
+                </div>
+                
+                <div class="credenciais">
+                    <h3>Coordenação Acadêmica</h3>
+                    <p><strong>Dr. João Pedro Pereira Passos</strong></p>
+                    <ul>
+                        <li>Doutor em Biotecnologia<br>(UFT/Rede BIONORTE)</li>
+                        <li>Mestre em Planejamento Tático e Ciências Policiais</li>
+                        <li>Professor Universitário<br>(UNITOP - Direito Digital)</li>
+                        <li>Pesquisador UFT<br>(Epidemiologia e Estatística)</li>
+                        <li>Autor - Editora Fórum<br>(Direito Digital - no prelo)</li>
+                        <li>ORCID: 0000-0001-7181-4587</li>
+                    </ul>
+                    
+                    <h3 style="margin-top:2rem;">Equipe</h3>
+                    <ul>
+                        <li>Escritório de Advocacia (OAB-TO)</li>
+                        <li>Equipe TI Especializada</li>
+                        <li>DPO Certificado</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato-section">
+        <div class="container">
+            <h2 class="section-title" style="color:white;">Entre em Contato</h2>
+            <div class="contato-grid">
+                <div class="contato-card">
+                    <div class="contato-icon">📱</div>
+                    <h3>WhatsApp</h3>
+                    <a href="https://wa.me/5563984381782?text=Olá,%20quero%20saber%20mais%20sobre%20adequação%20LGPD">(63) 98438-1782</a>
+                    <p style="margin-top:1rem;font-size:0.9rem;">Resposta em até 1 hora útil</p>
+                </div>
+                
+                <div class="contato-card">
+                    <div class="contato-icon">📧</div>
+                    <h3>E-mail</h3>
+                    <a href="mailto:contato@sajodiagnos.club">contato@sajodiagnos.club</a>
+                    <p style="margin-top:1rem;font-size:0.9rem;">Resposta em até 24h úteis</p>
+                </div>
+                
+                <div class="contato-card">
+                    <div class="contato-icon">🔒</div>
+                    <h3>DPO (Canal Oficial)</h3>
+                    <a href="mailto:dpo@sajodiagnos.club">dpo@sajodiagnos.club</a>
+                    <p style="margin-top:1rem;font-size:0.9rem;">Art. 41 LGPD - Requisições de titulares</p>
+                </div>
+                
+                <div class="contato-card">
+                    <div class="contato-icon">📍</div>
+                    <h3>Localização</h3>
+                    <p><strong>Palmas/TO</strong></p>
+                    <p style="margin-top:1rem;font-size:0.9rem;">Atendimento nacional<br>(presencial ou remoto)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>4 Pilares LGPD</h4>
+                    <p>Lei • Regras • Conformidade • Titular</p>
+                    <p style="margin-top:1rem;"><strong>CNPJ:</strong> 58.551.044/0001-90</p>
+                    <p><strong>Razão Social:</strong> 4 PILARES LGPD "LEI-REGRAS-CONFORMIDADE-TITULAR DOS DADOS"</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#pilares">Metodologia 4 Pilares</a></li>
+                        <li><a href="#legislacao">Legislação</a></li>
+                        <li><a href="#precos">Planos e Preços</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="mailto:privacidade@sajodiagnos.club">Política de Privacidade</a></li>
+                        <li><a href="mailto:juridico@sajodiagnos.club">Termos de Uso</a></li>
+                        <li><a href="mailto:dpo@sajodiagnos.club">Canal DPO</a></li>
+                        <li><a href="mailto:titular@sajodiagnos.club">Portal do Titular</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><a href="https://wa.me/5563984381782">(63) 98438-1782</a></li>
+                        <li><a href="mailto:contato@sajodiagnos.club">contato@sajodiagnos.club</a></li>
+                        <li><a href="mailto:suporte@sajodiagnos.club">suporte@sajodiagnos.club</a></li>
+                        <li>Palmas/TO - Brasil</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2026 4 Pilares LGPD - Todos os direitos reservados</p>
+                <p style="margin-top:0.5rem;">Desenvolvido com ❤️ em Palmas/TO</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5563984381782?text=Quero%20contratar%20DPO%20por%20R%24150" class="whatsapp-float" title="Fale conosco no WhatsApp">
+        <div class="whatsapp-badge">R$ 150</div>
+        📱
+    </a>
+
+</body>
+</html>
